@@ -1,0 +1,22 @@
+{
+  "name": "rectools",
+  "version": "0.1.0",
+  "description": "Tool recommendation SDK for AI agents",
+  "main": "src/find_tools_local.js",
+  "types": "src/find_tools_local.d.ts",
+  "scripts": {
+    "test:local": "ts-node test/test_find_tools_local.ts",
+    "test:remote:http": "ts-node test/test_find_tools_remote.ts --http",
+    "test:remote:mcp": "ts-node test/test_find_tools_remote.ts --mcp"
+  },
+  "keywords": ["ai", "agents", "mcp", "recommendations", "monetization"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konevc/mcp_dev"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

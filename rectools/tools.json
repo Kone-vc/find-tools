@@ -1,0 +1,40 @@
+{
+  "tools": [
+    {
+      "title": "ESLint",
+      "description": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript and TypeScript. Enforce code quality rules, catch bugs early, and maintain consistent style across your codebase.",
+      "url": "https://eslint.org/?ref=kone-affiliate",
+      "image": {
+        "small": "https://eslint.org/icon-512.png",
+        "large": "https://eslint.org/icon-512.png"
+      },
+      "rules": {
+        "keywords": ["lint", "linter", "eslint", "code quality", "style", "formatting", "javascript", "typescript", "js", "ts", "static analysis", "code style", "prettier"]
+      }
+    },
+    {
+      "title": "CodeRabbit",
+      "description": "AI-powered code review tool that automatically reviews pull requests, identifies bugs, suggests improvements, and generates summaries. Integrates with GitHub, GitLab, and Bitbucket to accelerate code reviews.",
+      "url": "https://coderabbit.ai/?ref=kone-affiliate",
+      "image": {
+        "small": "https://coderabbit.ai/favicon.ico",
+        "large": "https://coderabbit.ai/favicon.ico"
+      },
+      "rules": {
+        "keywords": ["code review", "pull request", "PR review", "refactor", "refactoring", "improve code", "review", "github", "gitlab", "bitbucket", "AI review", "automated review"]
+      }
+    },
+    {
+      "title": "Mintlify",
+      "description": "Modern documentation platform for developer tools. Automatically generate beautiful documentation from your codebase, add interactive API playgrounds, and keep docs in sync with your code.",
+      "url": "https://mintlify.com/?ref=kone-affiliate",
+      "image": {
+        "small": "https://mintlify.com/favicon.ico",
+        "large": "https://mintlify.com/favicon.ico"
+      },
+      "rules": {
+        "keywords": ["documentation", "docs", "readme", "api docs", "docstring", "jsdoc", "typedoc", "comment", "document", "api reference", "developer docs", "mintlify", "doc generator"]
+      }
+    }
+  ]
+}

@@ -1,40 +1,2941 @@
 {
   "tools": [
-    {
-      "title": "ESLint",
-      "description": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript and TypeScript. Enforce code quality rules, catch bugs early, and maintain consistent style across your codebase.",
-      "url": "https://eslint.org/?ref=kone-affiliate",
-      "image": {
-        "small": "https://eslint.org/icon-512.png",
-        "large": "https://eslint.org/icon-512.png"
-      },
-      "rules": {
-        "keywords": ["lint", "linter", "eslint", "code quality", "style", "formatting", "javascript", "typescript", "js", "ts", "static analysis", "code style", "prettier"]
-      }
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/68b6f00951eb33cd19b77288_Frame%201867174.png",
+      "small": "https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/68b6f00951eb33cd19b77288_Frame%201867174.png"
     },
-    {
-      "title": "CodeRabbit",
-      "description": "AI-powered code review tool that automatically reviews pull requests, identifies bugs, suggests improvements, and generates summaries. Integrates with GitHub, GitLab, and Bitbucket to accelerate code reviews.",
-      "url": "https://coderabbit.ai/?ref=kone-affiliate",
-      "image": {
-        "small": "https://coderabbit.ai/favicon.ico",
-        "large": "https://coderabbit.ai/favicon.ico"
-      },
-      "rules": {
-        "keywords": ["code review", "pull request", "PR review", "refactor", "refactoring", "improve code", "review", "github", "gitlab", "bitbucket", "AI review", "automated review"]
-      }
+    "rules": {
+      "keywords": [
+        "ai-powered forms",
+        "form builder",
+        "design expertise",
+        "natural language",
+        "ai assistant",
+        "typeform",
+        "high-converting forms",
+        "best-practice design",
+        "response rate",
+        "traditional form builders"
+      ]
     },
-    {
-      "title": "Mintlify",
-      "description": "Modern documentation platform for developer tools. Automatically generate beautiful documentation from your codebase, add interactive API playgrounds, and keep docs in sync with your code.",
-      "url": "https://mintlify.com/?ref=kone-affiliate",
-      "image": {
-        "small": "https://mintlify.com/favicon.ico",
-        "large": "https://mintlify.com/favicon.ico"
-      },
-      "rules": {
-        "keywords": ["documentation", "docs", "readme", "api docs", "docstring", "jsdoc", "typedoc", "comment", "document", "api reference", "developer docs", "mintlify", "doc generator"]
-      }
-    }
-  ]
+    "title": "AI-Powered Form Building Without Design Expertise",
+    "description": "Typeform's AI-powered form builder solves a critical pain point for businesses and individuals who need professional, high-converting forms but lack design expertise or time to create them manually. By offering an AI assistant that acts as a 'seasoned form expert,' users can simply type natural language prompts to build and edit forms, eliminating the learning curve associated with traditional form builders. This approach democratizes access to best-practice form design, backed by over a decade of Typeform's experience in creating forms proven to get 3.5x more responses than standard alternatives."
+  },
+  {
+    "image": {
+      "large": "https://assets.prezicdn.net/assets-versioned/staticpages-versioned/v1.0-423-g5409a1d1c8-r23490555330a1/common/img/prezi-apple-touch-icon.png",
+      "small": "https://assets.prezicdn.net/assets-versioned/staticpages-versioned/v1.0-423-g5409a1d1c8-r23490555330a1/common/img/prezi-apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "professional presentations",
+        "prezi ai",
+        "business presentations",
+        "layout",
+        "visuals",
+        "presentation flow",
+        "tight deadlines",
+        "sales pitches",
+        "proposals",
+        "quarterly reviews",
+        "corporate standards",
+        "client pitching",
+        "project proposals",
+        "leadership reviews",
+        "design automation",
+        "time saving",
+        "polished slides",
+        "uploaded document",
+        "prompt input"
+      ]
+    },
+    "title": "Professional Presentations in Seconds",
+    "description": "Prezi AI addresses the critical challenge faced by business professionals who are pressed for time yet need to deliver compelling presentations that meet corporate standards. Whether pitching to clients, proposing projects to stakeholders, or presenting quarterly reviews to leadership, professionals often lack both the time and design skills to create visually engaging materials. Prezi AI transforms this burden by automating the design process entirely, allowing users to go from a simple prompt or uploaded document to a polished, professional presentation in seconds, ensuring they can meet tight deadlines without sacrificing quality or visual impact."
+  },
+  {
+    "image": {
+      "large": "https://static.gamma.app/favicons/apple-touch-icon.png",
+      "small": "https://static.gamma.app/favicons/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "gamma",
+        "presentation decks",
+        "outlines",
+        "professional quality",
+        "slide design",
+        "branding",
+        "smart layouts",
+        "power point",
+        "google slides",
+        "pdf export",
+        "design skills",
+        "educators",
+        "consultants",
+        "professionals",
+        "ai powered",
+        "layout",
+        "formatting",
+        "consistency",
+        "time saving",
+        "visual communication"
+      ]
+    },
+    "title": "Minutes, Not Hours",
+    "description": "Gamma addresses the universal frustration of creating visually appealing presentations when you're not a designer. Traditional tools like PowerPoint and Google Slides require significant time investment in layout, formatting, and design consistency. For educators, consultants, and professionals who need to communicate ideas quickly and effectively, Gamma's AI-powered approach eliminates the design bottleneck by generating professional-quality slides from outlines or ideas, complete with smart layouts and brand consistency, in a fraction of the time."
+  },
+  {
+    "image": {
+      "large": "https://cdn.pie.org/merchants/logos/mongodb.jpg",
+      "small": "https://cdn.pie.org/merchants/logos/mongodb.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "ai infrastructure",
+        "mongodb atlas",
+        "vector search",
+        "document storage",
+        "sql database",
+        "vector database",
+        "data sync",
+        "operational complexity",
+        "ai features",
+        "machine learning",
+        "native vector search",
+        "indexing capabilities",
+        "hybrid support",
+        "unified solution",
+        "backend infrastructure",
+        "recommendation engines"
+      ]
+    },
+    "title": "Cut AI Infrastructure Costs",
+    "description": "MongoDB Atlas directly targets developers building AI and machine learning applications who face the costly complexity of maintaining separate SQL and vector database systems. Traditional SQL databases lack the native vector search and indexing capabilities essential for modern AI solutions that process text-heavy documents. MongoDB provides a unified solution with native vector search and crucial hybrid support—combining traditional and modern data capabilities—simplifying architecture while cutting operational costs. This positions MongoDB as the preferred backend infrastructure for AI/ML applications and recommendation engines."
+  },
+  {
+    "image": {
+      "large": "https://reflection.ai/apple-touch-icon.png",
+      "small": "https://reflection.ai/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai apps",
+        "reflection ai",
+        "infrastructure barriers",
+        "state-of-the-art models",
+        "hobby projects",
+        "creative experiments",
+        "enterprise price",
+        "individual developers",
+        "ai enthusiasts",
+        "frontier ai",
+        "personal projects",
+        "creative applications",
+        "side projects",
+        "advanced ai",
+        "democratization",
+        "solo developers",
+        "innovation",
+        "learning",
+        "powerful intelligence",
+        "technology"
+      ]
+    },
+    "title": "Build AI Apps Your Way",
+    "description": "Reflection AI enables individual creators, developers, and AI enthusiasts to harness frontier-level artificial intelligence for personal projects without the barriers typically associated with advanced AI technology. Whether building creative applications, experimenting with AI capabilities, developing side projects, or exploring new ideas, individuals can access powerful intelligence tools previously available only to well-funded organizations. This democratization empowers solo developers and hobbyists to innovate, learn, and create using state-of-the-art AI technology on their own terms."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/images/zcBYYQKY496RplBGA7RDLOQqI.png",
+      "small": "https://framerusercontent.com/images/zcBYYQKY496RplBGA7RDLOQqI.png"
+    },
+    "rules": {
+      "keywords": [
+        "code optimization",
+        "redundant code",
+        "best practices",
+        "real-time",
+        "codebase",
+        "technical debt",
+        "coding standards",
+        "performance",
+        "security",
+        "maintainable code",
+        "development teams",
+        "inefficiencies",
+        "streamline implementations",
+        "readable code",
+        "manual optimization",
+        "industry best practices",
+        "scalable code",
+        "code quality"
+      ]
+    },
+    "title": "Code That Stays Clean",
+    "description": "Kodezi provides continuous code optimization for development teams by automatically identifying and eliminating inefficiencies, enforcing coding standards, and applying industry best practices. The platform refines code in real-time by streamlining bloated implementations and ensuring adherence to performance, security, and precision standards without requiring manual optimization efforts. This ensures codebases remain maintainable and performant as they scale, preventing the accumulation of technical debt from suboptimal code patterns."
+  },
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/65f58079b018f5d03dceed8a/6627756f3a61857e792f756d_webclip-logo.png",
+      "small": "https://cdn.prod.website-files.com/65f58079b018f5d03dceed8a/6627756f3a61857e792f756d_webclip-logo.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai security",
+        "security policies",
+        "ai initiatives",
+        "platform engineers",
+        "agentic workflows",
+        "saas tools",
+        "ai automation",
+        "security boundaries",
+        "devops standards",
+        "platform engineering",
+        "automation agents",
+        "operational standards",
+        "agentic ai",
+        "infrastructure requirements",
+        "deployment environments",
+        "production readiness",
+        "ai experimentation",
+        "operational deployment",
+        "community support",
+        "documentation"
+      ]
+    },
+    "title": "Stuck Between AI & Security?",
+    "description": "Patched provides DevOps and platform engineering teams with the tools to implement AI-powered automation agents without sacrificing security or operational standards. For teams exploring agentic AI but constrained by security policies or infrastructure requirements, Patched offers a pathway to leverage modern AI capabilities while maintaining control over deployment environments. The platform's focus on production-readiness addresses the common challenge of moving from AI experimentation to reliable operational deployment, with community support and comprehensive documentation helping teams navigate implementation challenges."
+  },
+  {
+    "image": {
+      "large": "https://assets.crowdstrike.com/is/image/crowdstrikeinc/WebShareDefaultImage",
+      "small": "https://assets.crowdstrike.com/is/image/crowdstrikeinc/WebShareDefaultImage"
+    },
+    "rules": {
+      "keywords": [
+        "ai security",
+        "model scanning",
+        "security dashboards",
+        "unified protection",
+        "ai agents",
+        "ai applications",
+        "ai identities",
+        "ai infrastructure",
+        "ai detection",
+        "response capabilities",
+        "data leak prevention",
+        "attack surface",
+        "agentless capabilities",
+        "adversaries",
+        "vulnerabilities",
+        "artificial intelligence",
+        "crowdstrike",
+        "ai technologies"
+      ]
+    },
+    "title": "Complete AI Security Platform",
+    "description": "CrowdStrike addresses the emerging challenge of securing AI systems and infrastructure as organizations rapidly adopt artificial intelligence technologies. The platform provides comprehensive protection for AI agents, applications, models, identities, and infrastructure through unified AI Detection and Response capabilities. With adversaries increasingly exploiting AI vulnerabilities, CrowdStrike helps organizations shift AI from their biggest risk to their greatest advantage through AI model scanning, data leak prevention, and specialized AI security dashboards that protect the entire AI attack surface."
+  },
+  {
+    "image": {
+      "large": "https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg",
+      "small": "https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg"
+    },
+    "rules": {
+      "keywords": [
+        "ai readiness",
+        "api development",
+        "machine consumers",
+        "swagger",
+        "lifecycle tools",
+        "openapi standards",
+        "api governance",
+        "api design",
+        "llms",
+        "autonomous agents",
+        "human developers",
+        "quality standards",
+        "reliable integration",
+        "documentation",
+        "api infrastructure",
+        "ai integration"
+      ]
+    },
+    "title": "Stop Guessing on AI Readiness",
+    "description": "Swagger positions itself at the intersection of API development and artificial intelligence, recognizing that modern API infrastructure must serve both traditional human developers and emerging AI consumers like large language models and autonomous agents. This focus addresses the critical challenge organizations face in ensuring their APIs meet the quality, governance, and design standards required for reliable AI integration. The platform's emphasis on 'quality at every step' of the AI-enabled API lifecycle reflects the heightened stakes of API development in an era where machine consumers require precise, well-documented, and consistently maintained interfaces."
+  },
+  {
+    "image": {
+      "large": "https://www.sonarsource.com/app-icon.png",
+      "small": "https://www.sonarsource.com/app-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai code",
+        "sonarqube",
+        "code security",
+        "static analysis",
+        "ai assistant",
+        "github copilot",
+        "chatgpt",
+        "quality standards",
+        "compliance",
+        "real-time feedback",
+        "fix suggestions",
+        "vulnerability",
+        "codebase",
+        "ai productivity"
+      ]
+    },
+    "title": "Trust AI Code Completely",
+    "description": "SonarQube addresses the emerging challenge of validating AI-generated code by providing comprehensive static analysis that treats AI assistant contributions with the same rigor as human-written code. As development teams increasingly adopt AI coding tools like GitHub Copilot and ChatGPT, they face the critical challenge of ensuring these AI suggestions don't introduce security vulnerabilities or quality issues. SonarQube offers real-time feedback, deep static analysis, and AI-powered fix suggestions that create a trust layer for AI code, allowing teams to confidently leverage AI productivity gains while maintaining security and quality standards."
+  },
+  {
+    "image": {
+      "large": "https://www.gstatic.com/devrel-devsite/prod/ve31222845d1c7b1c5bd5ec59834d836e2338b44bb9e4138bc037c8f0912802a6/googledevai/images/touchicon-180-new.png",
+      "small": "https://www.gstatic.com/devrel-devsite/prod/ve31222845d1c7b1c5bd5ec59834d836e2338b44bb9e4138bc037c8f0912802a6/googledevai/images/touchicon-180-new.png"
+    },
+    "rules": {
+      "keywords": [
+        "gemini nano",
+        "google ai edge",
+        "android",
+        "chrome",
+        "web platform apis",
+        "custom pipelines",
+        "mobile applications",
+        "embedded systems",
+        "low latency",
+        "generative ai",
+        "server round-trips",
+        "privacy-conscious ai",
+        "on-device ai",
+        "offline functionality",
+        "user privacy",
+        "developer tools",
+        "real-time responses",
+        "sensitive data"
+      ]
+    },
+    "title": "Gemini Nano. Built In.",
+    "description": "Google AI for Developers addresses the growing need for privacy-conscious, low-latency AI implementations through its Google AI Edge platform. By enabling developers to deploy AI models directly on mobile devices, web browsers, and embedded systems, the platform eliminates the need for constant server communication, reducing costs and latency while keeping user data on-device. Gemini Nano on Android and Chrome's built-in web platform APIs provide developers with tools to create responsive AI features that work offline and protect user privacy. This approach is particularly valuable for applications requiring real-time responses, offline functionality, or handling sensitive data that shouldn't leave the device."
+  },
+  {
+    "image": {
+      "large": "https://www.codacy.com/hubfs/Frame%20427319716.png",
+      "small": "https://www.codacy.com/hubfs/Frame%20427319716.png"
+    },
+    "rules": {
+      "keywords": [
+        "securing ai code",
+        "real-time workflows",
+        "codacy guardrails",
+        "ai-assisted coding",
+        "security gap",
+        "github copilot",
+        "cursor",
+        "traditional review",
+        "vulnerabilities",
+        "security tools",
+        "code scanning",
+        "quality flaws",
+        "auto-fixing",
+        "development teams",
+        "engineering security",
+        "deployment",
+        "vulnerable code"
+      ]
+    },
+    "title": "Securing AI-Generated Code in Real-Time Development Workflows",
+    "description": "Codacy Guardrails addresses the critical security gap created by AI-assisted coding tools that generate code bypassing traditional review processes. As development teams increasingly adopt AI coding assistants like GitHub Copilot and Cursor, they face new vulnerabilities that traditional security tools cannot detect. Codacy provides the first comprehensive solution that scans every line of AI-generated code for security and quality flaws in real-time, auto-fixing issues before they're even printed to the screen. This enables engineering teams to accelerate development with AI while maintaining security standards and avoiding the deployment of vulnerable code."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/images/Q6lPOi4OnIz8gMN3lPkYEMItE20.png",
+      "small": "https://framerusercontent.com/images/Q6lPOi4OnIz8gMN3lPkYEMItE20.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai reviews",
+        "commit review",
+        "code quality",
+        "style guides",
+        "natural language",
+        "automated review",
+        "logical bugs",
+        "team preferences",
+        "source code retention",
+        "soc 2",
+        "public repos",
+        "codebase",
+        "code review",
+        "development teams",
+        "repository",
+        "software review"
+      ]
+    },
+    "title": "AI Reviews on Every Commit",
+    "description": "Ellipsis addresses the critical challenge development teams face in maintaining consistent code quality across large codebases with 67,000+ repositories. Rather than relying on manual code review processes that can be time-consuming and inconsistent, Ellipsis provides automated AI reviews on every commit, catching logical bugs, enforcing style guides written in natural language, and learning team preferences over time. This enables teams to scale code quality enforcement without increasing review burden on senior developers."
+  },
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/655f0a311c75248c5ff9756b_Social%20Avatar.png",
+      "small": "https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/655f0a311c75248c5ff9756b_Social%20Avatar.png"
+    },
+    "rules": {
+      "keywords": [
+        "support tickets",
+        "ecommerce",
+        "ai automation",
+        "customer support",
+        "brand voice",
+        "ticket resolution",
+        "repetitive inquiries",
+        "operational costs",
+        "staffing costs",
+        "ai agent",
+        "customer service",
+        "human agents",
+        "personalized attention",
+        "support volume",
+        "business growth"
+      ]
+    },
+    "title": "Drowning in Support Tickets?",
+    "description": "Gorgias provides ecommerce brands with AI-powered automation that resolves the majority of repetitive customer support inquiries without human intervention. This capability directly addresses the escalating operational costs that growing ecommerce businesses face as customer volume increases. By automating up to 60% of support tickets through their AI Agent, Gorgias enables brands to scale customer service efficiently while reducing staffing costs and allowing human agents to dedicate their expertise to complex, high-value customer interactions that truly require personalized attention."
+  },
+  {
+    "image": {
+      "large": "https://www.ibm.com/content/dam/adobe-cms/default-images/apple-touch-icon-180x180.png",
+      "small": "https://www.ibm.com/content/dam/adobe-cms/default-images/apple-touch-icon-180x180.png"
+    },
+    "rules": {
+      "keywords": [
+        "enterprise ai",
+        "unstructured data",
+        "data management",
+        "vector database",
+        "nosql database",
+        "astra db",
+        "hyper-converged database",
+        "langflow",
+        "low-code development",
+        "data ingestion",
+        "data enrichment",
+        "data retrieval",
+        "security governance",
+        "production ready",
+        "ai applications",
+        "enterprise data",
+        "data assets",
+        "ai prototypes",
+        "deployment",
+        "infrastructure environment"
+      ]
+    },
+    "title": "Enterprise AI Application Development with Unstructured Data Management",
+    "description": "IBM DataStax provides enterprises with a comprehensive platform for building accurate, production-ready AI applications by addressing the fundamental challenge of managing unstructured data at scale. The solution combines vector-capable NoSQL databases (Astra DB and Hyper-converged Database) with low-code development tools (Langflow) to automate data ingestion, enrichment, and retrieval while maintaining enterprise-grade security and governance. This integrated approach enables organizations to unlock insights from their unstructured data assets—which comprise the majority of enterprise data—and rapidly move from AI prototypes to production deployments across any infrastructure environment."
+  },
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/66d758dfc1a1472af872e216/672b539e0c3d3476d4f0800b_MediaClip.png",
+      "small": "https://cdn.prod.website-files.com/66d758dfc1a1472af872e216/672b539e0c3d3476d4f0800b_MediaClip.png"
+    },
+    "rules": {
+      "keywords": [
+        "tabby",
+        "generic ai",
+        "codebase",
+        "documentation",
+        "apis",
+        "context-aware",
+        "code completion",
+        "inline chat",
+        "data connectors",
+        "project-specific",
+        "code quality",
+        "team collaboration",
+        "technical questions",
+        "configuration files",
+        "development teams",
+        "ai assistant",
+        "code patterns",
+        "infrastructure",
+        "suggestions",
+        "readme"
+      ]
+    },
+    "title": "Stop Generic AI Suggestions",
+    "description": "Tabby addresses the limitation of generic AI coding tools by offering context-aware assistance that deeply understands project-specific codebases, documentation, and infrastructure. Development teams can leverage Tabby's data connectors to integrate their repositories, documentation, APIs, and configuration files, creating an AI assistant that provides relevant, project-specific suggestions rather than generic code patterns. This context-awareness enables more accurate code completion, better answers to technical questions, and more effective team collaboration through inline chat, ultimately improving code quality and reducing the time developers spend searching for project-specific information."
+  },
+  {
+    "image": {
+      "large": "https://vibepocket.com/icons/apple-icon-precomposed.png",
+      "small": "https://vibepocket.com/icons/apple-icon-precomposed.png"
+    },
+    "rules": {
+      "keywords": [
+        "pre-loaded agents",
+        "browser access",
+        "github integration",
+        "cloud environments",
+        "zero setup",
+        "ai coding",
+        "claude code",
+        "codex",
+        "aider",
+        "gemini cli",
+        "repository connection",
+        "dependency installation",
+        "environment config",
+        "api keys",
+        "compatibility issues",
+        "rapid prototyping",
+        "experimentation",
+        "cloud setup"
+      ]
+    },
+    "title": "Pre-Loaded AI Agents, Ready",
+    "description": "Vibe Pocket targets developers frustrated with the lengthy setup processes required for AI coding agents. Traditional workflows require installing dependencies, configuring environments, managing API keys, and troubleshooting compatibility issues before any actual coding begins. Vibe Pocket's pre-configured cloud environments with popular AI agents like Claude Code, Codex, Aider, and Gemini already installed mean developers can select a repository and start coding immediately, dramatically reducing the friction between idea and implementation for rapid prototyping and experimentation."
+  },
+  {
+    "image": {
+      "large": "https://poolside.ai/favicon/apple-touch-icon.png",
+      "small": "https://poolside.ai/favicon/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai investment",
+        "workflow integration",
+        "forward deployed engineers",
+        "intelligence systems",
+        "software development",
+        "enterprise ai",
+        "ide integration",
+        "terminal integration",
+        "custom applications",
+        "adoption rates",
+        "business outcomes",
+        "productivity multiplier"
+      ]
+    },
+    "title": "Stop Wasting AI Investment",
+    "description": "Poolside addresses the common enterprise challenge where AI implementations fail to deliver real-world value despite having powerful technology. Instead of providing AI models as standalone products, Poolside embeds Forward Deployed Research Engineers directly with customer software development teams to design, build, and operate intelligence systems that integrate into actual workflows—from IDEs to terminals to custom applications. This hands-on approach ensures joint ownership of adoption rates, workflow transformation, and quantifiable business outcomes, making AI a practical productivity multiplier rather than an underutilized tool."
+  },
+  {
+    "image": {
+      "large": "https://www.mend.io/wp-content/uploads/2026/01/Mend-AppSec-Platform-graphic-update.png",
+      "small": "https://www.mend.io/wp-content/uploads/2026/01/Mend-AppSec-Platform-graphic-update.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai generated code",
+        "development assistants",
+        "static analysis",
+        "application security",
+        "vulnerability detection",
+        "code security",
+        "ai coding",
+        "real time checks",
+        "security posture",
+        "github copilot",
+        "amazon codewhisperer",
+        "remediation",
+        "machine generated code",
+        "software development",
+        "coding workflows"
+      ]
+    },
+    "title": "Securing AI-Generated Code from Development Assistants",
+    "description": "Mend.io addresses the fundamental shift in software development where AI coding assistants are generating significant portions of codebases. Traditional static analysis tools cannot effectively analyze or secure machine-generated code, creating blind spots in application security. Organizations using tools like GitHub Copilot, Amazon CodeWhisperer, or other AI assistants need security solutions that can understand and evaluate code regardless of whether it was written by humans or machines. Mend.io integrates security checks directly into AI coding workflows to provide real-time vulnerability detection and remediation for AI-generated code, ensuring development velocity doesn't compromise security posture."
+  },
+  {
+    "image": {
+      "large": "https://telnyx.com/dotcom-web/favicon.ico",
+      "small": "https://telnyx.com/dotcom-web/favicon.ico"
+    },
+    "rules": {
+      "keywords": [
+        "ecommerce",
+        "customer service",
+        "returns",
+        "order support",
+        "voice ai",
+        "conversational agents",
+        "order tracking",
+        "refund processing",
+        "24/7 support",
+        "natural language processing",
+        "model context protocol",
+        "shipping updates",
+        "support costs",
+        "customer satisfaction"
+      ]
+    },
+    "title": "Ecommerce Customer Service Automation for Returns and Order Support",
+    "description": "Telnyx provides ecommerce businesses with an automated customer service solution that handles high-volume, repetitive inquiries through conversational Voice AI agents. The platform enables online retailers to offer 24/7 customer support for returns, order tracking, and refund processing without scaling human agent teams proportionally to order volume. By leveraging natural language processing and integration capabilities through the Model Context Protocol, the Voice AI agents can access order management systems, process return requests, provide shipping updates, and initiate refunds while maintaining the conversational quality customers expect, ultimately reducing support costs while improving response times and customer satisfaction."
+  },
+  {
+    "image": {
+      "large": "https://www.couchbase.com/wp-content/uploads/2023/10/CB-Meta-Image-1.png",
+      "small": "https://www.couchbase.com/wp-content/uploads/2023/10/CB-Meta-Image-1.png"
+    },
+    "rules": {
+      "keywords": [
+        "couchbase mobile",
+        "offline data",
+        "automatic sync",
+        "remote locations",
+        "spotty networks",
+        "internet availability",
+        "on-device search",
+        "vector search",
+        "ai capabilities",
+        "javascript support",
+        "sql++ queries",
+        "deployment resilience",
+        "mobile services",
+        "offline storage",
+        "data modifications",
+        "connectivity returns",
+        "cloud disconnected",
+        "mobile applications",
+        "reliable functionality",
+        "travel use"
+      ]
+    },
+    "title": "No Connection? No Problem",
+    "description": "Couchbase Mobile addresses the critical challenge developers face when building applications for users who need reliable functionality regardless of internet connectivity - whether in remote locations, during travel, or in areas with poor network coverage. The platform provides comprehensive mobile services that enable applications to save and modify data offline, perform on-device vector search for AI capabilities, and automatically synchronize when connectivity returns. With JavaScript support, SQL++ queries, and deployment resilience advancements, developers can create AI-powered mobile applications that deliver consistent, fast experiences at users' fingertips whether connected or disconnected from the cloud."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/images/t3tSb3Uo8QBjzN2ycD3Yj5WzOB4.png",
+      "small": "https://framerusercontent.com/images/t3tSb3Uo8QBjzN2ycD3Yj5WzOB4.png"
+    },
+    "rules": {
+      "keywords": [
+        "debugging",
+        "shipping",
+        "manual fixes",
+        "error detection",
+        "pipeline errors",
+        "data-aware ai",
+        "data pipelines",
+        "coding bottlenecks",
+        "configuration setup",
+        "pipeline code",
+        "error handling",
+        "execution",
+        "data engineers",
+        "production deployment",
+        "manual coding",
+        "strategic data work",
+        "workflow automation",
+        "burnout reduction"
+      ]
+    },
+    "title": "Stop Debugging. Start Shipping.",
+    "description": "Mage transforms the traditionally time-intensive process of building data pipelines into a rapid, AI-assisted workflow that eliminates manual coding bottlenecks. For data engineers facing pressure to deliver faster while maintaining quality, Mage's AI capabilities automatically generate pipeline code, handle configuration setup, and proactively fix errors during execution. This allows teams to focus on strategic data work rather than repetitive implementation tasks, dramatically reducing the time from initial concept to production deployment while minimizing the burnout associated with manual pipeline construction."
+  },
+  {
+    "image": {
+      "large": "https://i0.wp.com/transparent.partners/wp-content/uploads/2023/02/cropped-transparentPartners_stackedLogo_blue_rgb-1-07-1-2.png?fit=180%2C180&ssl=1",
+      "small": "https://i0.wp.com/transparent.partners/wp-content/uploads/2023/02/cropped-transparentPartners_stackedLogo_blue_rgb-1-07-1-2.png?fit=180%2C180&ssl=1"
+    },
+    "rules": {
+      "keywords": [
+        "strategy",
+        "busywork",
+        "transparent partners",
+        "marketing ops",
+        "competitive edge",
+        "ai-powered agents",
+        "campaign operations",
+        "audience segmentation",
+        "media optimization",
+        "personalized campaigns",
+        "data-driven campaigns",
+        "agentic marketing",
+        "ai automation",
+        "repetitive tasks",
+        "marketing operating system",
+        "intelligent automation",
+        "creative strategy",
+        "strategic decision-making",
+        "business growth"
+      ]
+    },
+    "title": "Strategy Over Busywork",
+    "description": "Transparent Partners addresses the growing challenge of marketing teams drowning in operational complexity while trying to deliver personalized, data-driven campaigns. Their agentic marketing solutions deploy AI-powered automation to handle repetitive tasks across campaign operations, audience segmentation, and media optimization. Rather than treating AI as just another tool, Transparent Partners helps organizations reimagine their entire marketing operating system to leverage intelligent automation. This frees marketing teams from manual friction points and allows them to focus on strategic decision-making and creative work that drives business growth."
+  },
+  {
+    "image": {
+      "large": "https://refact.ai/images/cover.png",
+      "small": "https://refact.ai/images/cover.png"
+    },
+    "rules": {
+      "keywords": [
+        "self-hosted ai",
+        "on-premise",
+        "aws",
+        "fine-tune",
+        "claude 4",
+        "gpt-4o",
+        "deepseek",
+        "codebase",
+        "shared knowledge",
+        "team interactions",
+        "enterprise tools",
+        "github",
+        "docker",
+        "postgresql",
+        "data sovereignty",
+        "security",
+        "autonomous coding",
+        "institutional learning",
+        "productivity multiplication",
+        "compliance requirements"
+      ]
+    },
+    "title": "Self-Hosted AI That Learns",
+    "description": "Refact.ai provides enterprise development teams with autonomous AI coding capabilities while maintaining complete data sovereignty and security. Unlike cloud-only AI coding tools, Refact.ai offers on-premise deployment ensuring proprietary code never leaves company infrastructure. The platform fine-tunes on company-specific codebases to understand internal standards and conventions, learns from team interactions to build institutional knowledge, and integrates with enterprise tools like GitHub, Docker, and PostgreSQL. Organizations get productivity multiplication through autonomous task completion while retaining full control over sensitive intellectual property, compliance requirements, and development workflows."
+  },
+  {
+    "image": {
+      "large": "https://aurascape.ai/wp-content/uploads/2025/07/cropped-aurascape-orange-bug-180x180.png",
+      "small": "https://aurascape.ai/wp-content/uploads/2025/07/cropped-aurascape-orange-bug-180x180.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai security",
+        "data leakage",
+        "sensitive data",
+        "confidential information",
+        "intellectual property",
+        "ai prompts",
+        "real time",
+        "intent based",
+        "context aware",
+        "compliance violations",
+        "knowledge workers",
+        "smart protection",
+        "productivity",
+        "blanket blocks",
+        "ai tools",
+        "conversation context",
+        "enterprise security"
+      ]
+    },
+    "title": "AI Without the Risk",
+    "description": "Aurascape solves the critical problem of sensitive data exposure through AI interactions, where 75% of knowledge workers use AI daily and may inadvertently share confidential information in prompts. Traditional security tools cannot inspect AI conversations or understand the context of data being shared. Aurascape detects sensitive information flowing through AI tools in real time, applies intent-based controls based on conversation context, and prevents data leakage while allowing legitimate AI usage, giving enterprises confidence to adopt AI without risking intellectual property or compliance violations."
+  },
+  {
+    "image": {
+      "large": "https://checkmarx.com/wp-content/uploads/2024/06/cropped-cx_favicon-180x180.webp",
+      "small": "https://checkmarx.com/wp-content/uploads/2024/06/cropped-cx_favicon-180x180.webp"
+    },
+    "rules": {
+      "keywords": [
+        "ai-generated code",
+        "development speed",
+        "checkmarx one",
+        "github copilot",
+        "chatgpt",
+        "preventative security",
+        "insecure code",
+        "real-time",
+        "ide security",
+        "agentic ai",
+        "ai-speed",
+        "code creation",
+        "vulnerability",
+        "security standards",
+        "ai-assisted development",
+        "productivity gains"
+      ]
+    },
+    "title": "AI-Generated Code Security at Development Speed",
+    "description": "Checkmarx recognizes that AI-powered development tools like GitHub Copilot and ChatGPT are fundamentally changing the speed and volume of code creation, and traditional security approaches can't keep pace. Checkmarx One addresses this by providing preventative security that works at AI-speed, catching insecure AI-generated code in real-time within developers' IDEs before it becomes a vulnerability. The platform's agentic AI capabilities are specifically designed to handle the velocity of modern AI-assisted development while maintaining security standards, ensuring organizations can leverage AI productivity gains without introducing unmanaged security risks."
+  },
+  {
+    "image": {
+      "large": "https://checkmarx.com/wp-content/uploads/2024/06/cropped-cx_favicon-180x180.webp",
+      "small": "https://checkmarx.com/wp-content/uploads/2024/06/cropped-cx_favicon-180x180.webp"
+    },
+    "rules": {
+      "keywords": [
+        "ai security",
+        "code security",
+        "ai-generated code",
+        "development speed",
+        "github copilot",
+        "chatgpt",
+        "checkmarx one",
+        "preventative security",
+        "real-time",
+        "ide security",
+        "insecure code",
+        "agentic ai",
+        "code creation",
+        "vulnerability",
+        "software development",
+        "security standards",
+        "productivity gains",
+        "ai-assisted development",
+        "traditional security",
+        "security risks"
+      ]
+    },
+    "title": "AI-Generated Code Security at Development Speed",
+    "description": "Checkmarx recognizes that AI-powered development tools like GitHub Copilot and ChatGPT are fundamentally changing the speed and volume of code creation, and traditional security approaches can't keep pace. Checkmarx One addresses this by providing preventative security that works at AI-speed, catching insecure AI-generated code in real-time within developers' IDEs before it becomes a vulnerability. The platform's agentic AI capabilities are specifically designed to handle the velocity of modern AI-assisted development while maintaining security standards, ensuring organizations can leverage AI productivity gains without introducing unmanaged security risks."
+  },
+  {
+    "image": {
+      "large": "https://www.kamatera.com/wp-content/uploads/cropped-cropped-06169472-7db8-4ba3-91f6-3b4e34b5e168-1-180x180.png",
+      "small": "https://www.kamatera.com/wp-content/uploads/cropped-cropped-06169472-7db8-4ba3-91f6-3b4e34b5e168-1-180x180.png"
+    },
+    "rules": {
+      "keywords": [
+        "wordpress hosting",
+        "windows vps",
+        "control panel",
+        "cpu cores",
+        "ddr5 ram",
+        "nvme ssd",
+        "sql server",
+        "global data centers",
+        "expert support",
+        "uptime",
+        "resource scaling",
+        "shared hosting",
+        "server configurations",
+        "windows editions",
+        "iis",
+        "managed service",
+        "performance",
+        "site owners",
+        "deployment",
+        "server administration"
+      ]
+    },
+    "title": "Full-Control WordPress Hosting Platform",
+    "description": "Kamatera provides Windows VPS hosting infrastructure that serves WordPress developers and site owners who require more control and performance than shared hosting can provide. With customizable server configurations, the ability to scale resources on demand, and support for various Windows editions that can run WordPress through IIS or compatibility layers, Kamatera addresses the needs of users managing WordPress sites that have outgrown basic hosting. The platform's 24 global data centers enable WordPress administrators to deploy sites closer to their audience for improved performance, while the managed service option appeals to those who want WordPress hosting without deep server administration knowledge."
+  },
+  {
+    "image": {
+      "large": "https://be.tricentis.com/media-assets/2025/03/social-deliver-quality-at-speed-tricentis.jpg",
+      "small": "https://be.tricentis.com/media-assets/2025/03/social-deliver-quality-at-speed-tricentis.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "ai testing",
+        "analyst validation",
+        "autonomous testing",
+        "quality engineering",
+        "executive buy in",
+        "gartner",
+        "forrester",
+        "agentic ai",
+        "automation",
+        "risk reduction",
+        "roi",
+        "platform decisions",
+        "enterprise software",
+        "third party validation",
+        "manual testing",
+        "ai assisted",
+        "global brands",
+        "modernizing testing"
+      ]
+    },
+    "title": "Analyst-Backed AI Testing",
+    "description": "Tricentis positions itself as the strategic choice for quality engineering executives navigating the transformation toward AI-powered autonomous testing. With recognition from both Gartner and Forrester as a leader in AI-augmented and autonomous testing, Tricentis provides quality engineering leaders with analyst validation to support major platform decisions. The company's agentic AI approach represents the next evolution beyond traditional automation, enabling testing organizations to fundamentally shift from manual tool operation to AI-assisted collaboration. For executives responsible for modernizing testing capabilities, reducing risk, and demonstrating ROI on quality investments, Tricentis offers both the technological foundation and the industry credibility needed to drive organizational change and secure executive buy-in."
+  },
+  {
+    "image": {
+      "large": "https://a.storyblok.com/f/88751/1280x1280/84e0dae1bc/storyblok_logo.png/m/180x180/filters:format(png)/",
+      "small": "https://a.storyblok.com/f/88751/1280x1280/84e0dae1bc/storyblok_logo.png/m/180x180/filters:format(png)/"
+    },
+    "rules": {
+      "keywords": [
+        "figma integration",
+        "design workflow",
+        "development workflow",
+        "storyblok",
+        "design handoff",
+        "pixel perfect",
+        "component creation",
+        "design system",
+        "content management",
+        "product teams",
+        "stakeholder collaboration",
+        "rapid iteration",
+        "design translation",
+        "unified workflows",
+        "manual recreation",
+        "miscommunication",
+        "technical implementation"
+      ]
+    },
+    "title": "Seamless Design-to-Development Workflow with Figma Integration",
+    "description": "Storyblok's Figma Connect addresses the persistent challenge of design-to-development translation by enabling teams to create Storyblok components directly from Figma design frames. This integration eliminates the manual recreation of designs, reduces miscommunication between designers and developers, and ensures pixel-perfect implementation where what gets designed is exactly what gets built. For product teams juggling multiple stakeholders, design systems, and rapid iteration cycles, this workflow integration dramatically reduces the time and errors associated with traditional design handoffs. The connection between design tooling and content management represents a fundamental shift toward unified workflows that respect both creative vision and technical implementation needs."
+  },
+  {
+    "image": {
+      "large": "https://repomix.com/images/pwa/repomix-192x192.png",
+      "small": "https://repomix.com/images/pwa/repomix-192x192.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai documentation",
+        "codebase analysis",
+        "repo packaging",
+        "architecture diagrams",
+        "technical documentation",
+        "component explanations",
+        "developer onboarding",
+        "legacy codebase",
+        "project structure",
+        "ai analysis",
+        "full repo",
+        "code context",
+        "docs generation",
+        "documentation sync",
+        "repomix"
+      ]
+    },
+    "title": "AI Meets Your Whole Repo",
+    "description": "Repomix helps development teams and technical writers generate accurate, comprehensive documentation by providing AI tools with complete codebase context in a single package. Instead of manually documenting every component or trying to understand complex project structures file-by-file, teams can leverage AI assistants to analyze the entire repository and automatically generate documentation, architecture explanations, and onboarding materials. This accelerates new developer onboarding, keeps documentation in sync with code, and makes complex legacy codebases more accessible by enabling AI-powered exploration and explanation."
+  },
+  {
+    "image": {
+      "large": "https://bw-mkt-wp-website.s3.us-east-2.amazonaws.com/wp-content/uploads/20231020173610/Bandwidth-Default.png",
+      "small": "https://bw-mkt-wp-website.s3.us-east-2.amazonaws.com/wp-content/uploads/20231020173610/Bandwidth-Default.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai infrastructure",
+        "customer service",
+        "conversational ai",
+        "intelligent automation",
+        "google cloud ai",
+        "bring your own ai",
+        "service activation",
+        "customer validation",
+        "messaging api",
+        "media streaming",
+        "enterprise reliability",
+        "customer interactions",
+        "ai agents",
+        "telecommunications",
+        "cost reduction",
+        "support interactions"
+      ]
+    },
+    "title": "Cut Costs, Elevate Service",
+    "description": "Bandwidth provides the AI-ready telecommunications infrastructure that enables businesses to transform their customer service operations with conversational AI and intelligent automation. Through partnerships with Google Cloud AI and support for bring-your-own-AI integrations, Bandwidth enables companies to deploy sophisticated AI agents for customer validation, service activation, and support interactions. The platform's media streaming capabilities and messaging APIs are specifically designed to support modern AI-powered customer experiences, helping businesses reduce costs while delivering more intuitive and effective customer conversations at scale."
+  },
+  {
+    "image": {
+      "large": "https://checkmarx.com/wp-content/uploads/2024/06/cropped-cx_favicon-180x180.webp",
+      "small": "https://checkmarx.com/wp-content/uploads/2024/06/cropped-cx_favicon-180x180.webp"
+    },
+    "rules": {
+      "keywords": [
+        "ai code",
+        "security feedback",
+        "checkmarx",
+        "real-time scanning",
+        "ai assistants",
+        "insecure patterns",
+        "code creation",
+        "production vulnerabilities",
+        "accelerated development",
+        "secure coding",
+        "developer security",
+        "github copilot",
+        "chatgpt",
+        "agentic ai",
+        "contextual guidance"
+      ]
+    },
+    "title": "AI Writes Code. Who Checks?",
+    "description": "Checkmarx addresses the emerging challenge of securing AI-generated code and maintaining security posture during accelerated development cycles. As developers leverage AI coding assistants like GitHub Copilot or ChatGPT to generate code faster than ever, traditional security testing struggles to keep pace. Checkmarx One uses agentic AI to provide real-time security feedback during code creation, catching insecure patterns before they become vulnerabilities. The platform's AI-native approach ensures security scales with AI-accelerated development velocity while educating developers on secure coding patterns through contextual guidance."
+  },
+  {
+    "image": {
+      "large": "https://refact.ai/images/cover.png",
+      "small": "https://refact.ai/images/cover.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai coding",
+        "data sovereignty",
+        "on-premise deployment",
+        "autonomous tasks",
+        "codebase fine-tuning",
+        "enterprise teams",
+        "proprietary code",
+        "security",
+        "infrastructure",
+        "github integration",
+        "docker",
+        "postgresql",
+        "institutional knowledge",
+        "development workflows",
+        "cloud alternatives"
+      ]
+    },
+    "title": "Your Code. Your Servers. AI.",
+    "description": "Refact.ai provides enterprise development teams with autonomous AI coding capabilities while maintaining complete data sovereignty and security. Unlike cloud-only AI coding tools, Refact.ai offers on-premise deployment ensuring proprietary code never leaves company infrastructure. The platform fine-tunes on company-specific codebases to understand internal standards and conventions, learns from team interactions to build institutional knowledge, and integrates with enterprise tools like GitHub, Docker, and PostgreSQL. Organizations get productivity multiplication through autonomous task completion while retaining full control over sensitive intellectual property, compliance requirements, and development workflows."
+  },
+  {
+    "image": {
+      "large": null,
+      "small": null
+    },
+    "rules": {
+      "keywords": [
+        "prezi",
+        "presentations",
+        "business professionals",
+        "ai powered",
+        "client engagement",
+        "non linear",
+        "dynamic design",
+        "sales",
+        "marketing",
+        "consulting",
+        "audience engagement",
+        "deal closing",
+        "stakeholder buy in",
+        "presentation generation",
+        "custom design",
+        "work outcomes"
+      ]
+    },
+    "title": "Win More Deals With Engaging Presentations",
+    "description": "Prezi addresses the challenge business professionals face when trying to create presentations that truly engage clients and stakeholders rather than bore them with static slides. The platform offers AI-powered presentation generation that creates visually dynamic, non-linear presentations with customized designs, allowing professionals to navigate content based on audience interest. With 91% of users reporting improved work outcomes and strong ratings from sales, marketing, and consulting professionals, Prezi positions itself as the solution for business presenters who need to win deals, secure buy-in, and keep audiences engaged throughout their presentations."
+  },
+  {
+    "image": {
+      "large": "https://cursor.com/marketing-static/apple-touch-icon.png",
+      "small": "https://cursor.com/marketing-static/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "beyond the IDE",
+        "cursor ecosystem",
+        "bugbot",
+        "pull requests",
+        "github",
+        "slack",
+        "command line",
+        "ai coding",
+        "technical questions",
+        "code reviews",
+        "workflow integration",
+        "terminal workflows",
+        "contextual AI",
+        "software development",
+        "developer tools"
+      ]
+    },
+    "title": "Beyond the IDE",
+    "description": "Cursor recognizes that modern software development happens across multiple tools and platforms, not just within an IDE. Developers need AI assistance during code reviews on GitHub, when answering team questions in Slack, and when working at the command line. Cursor's ecosystem integration brings contextual AI help to these touchpoints, enabling BugBot to automatically review pull requests and identify logic bugs, allowing team members to ask technical questions in Slack channels and get AI-generated responses, and providing command-line assistance for terminal-based workflows. This comprehensive approach addresses the fragmented nature of development workflows and ensures AI assistance is available wherever developers work."
+  },
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/6565737286e587567248583f/67cfea59e18d3302635fc356_Brand%20Icon%20180x180.png",
+      "small": "https://cdn.prod.website-files.com/6565737286e587567248583f/67cfea59e18d3302635fc356_Brand%20Icon%20180x180.png"
+    },
+    "rules": {
+      "keywords": [
+        "prompt to production",
+        "ai agent",
+        "plivo platform",
+        "natural language",
+        "conversation flows",
+        "drag and drop",
+        "multi channel",
+        "one click",
+        "automated setup",
+        "customer interactions",
+        "business requirements",
+        "production ready",
+        "technical barriers",
+        "enterprise grade",
+        "guided setup",
+        "single click deployment",
+        "flow building",
+        "non technical teams"
+      ]
+    },
+    "title": "Prompt-to-Production AI",
+    "description": "Plivo's AI agent platform solves the challenge of rapidly implementing conversational AI without technical barriers. For businesses that need to automate customer interactions quickly but lack development teams or coding expertise, Plivo offers a guided, prompt-based setup that transforms business requirements into production-ready agents in minutes. The platform eliminates the traditional complexity of AI implementation through natural language descriptions, automatic flow building, and single-click multi-channel deployment, making enterprise-grade AI accessible to product owners and non-technical teams."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/images/qAsR3ASqozx1NcOumwgs16is7Zg.png",
+      "small": "https://framerusercontent.com/images/qAsR3ASqozx1NcOumwgs16is7Zg.png"
+    },
+    "rules": {
+      "keywords": [
+        "mcp servers",
+        "api spec",
+        "ai agents",
+        "model context protocol",
+        "production ready",
+        "cloudflare",
+        "token constraints",
+        "llm context",
+        "tool discovery",
+        "api capabilities",
+        "dynamic tool",
+        "minimal token",
+        "agentic clients",
+        "stainless",
+        "cursor",
+        "claude",
+        "api companies",
+        "server implementation"
+      ]
+    },
+    "title": "MCP Servers Without the Work",
+    "description": "Stainless addresses the emerging need for API companies to support AI agent interactions through the Model Context Protocol (MCP). As AI agents like Claude, Cursor, and other agentic clients become prevalent, APIs need specialized server implementations that work within the token constraints of LLM context windows. Stainless automatically generates MCP servers from API specifications with intelligent optimizations including dynamic tool discovery, minimal token usage, and granular exposure of API capabilities. This enables API companies to make their services accessible to the rapidly growing ecosystem of AI agents without requiring deep expertise in both API design and LLM optimization."
+  },
+  {
+    "image": {
+      "large": "https://www.astronomer.io/images/featured-image-homepage.jpg",
+      "small": "https://www.astronomer.io/images/featured-image-homepage.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "astro ide",
+        "ai-native",
+        "airflow",
+        "data orchestration",
+        "code suggestions",
+        "astro cli",
+        "dag testing",
+        "ci/cd",
+        "linting",
+        "testing",
+        "data pipelines",
+        "local development",
+        "production-ready code",
+        "integrated development",
+        "code quality",
+        "astronomer"
+      ]
+    },
+    "title": "AI-Native IDE for Airflow",
+    "description": "Astronomer addresses the development bottleneck faced by data teams who need to rapidly build, test, and deploy data pipelines while maintaining code quality. The Astro IDE represents the only AI-native integrated development environment specifically designed for data orchestration, where an intelligent code agent understands the user's data platform context and generates production-ready code suggestions. Combined with the Astro CLI for local development and built-in CI/CD integration with linting and testing, teams can move from concept to production exponentially faster, with one customer reporting the ability to create 10 new pipelines daily when needed."
+  },
+  {
+    "image": {
+      "large": "https://www.cloudzero.com/wp-content/uploads/2023/11/cropped-android-chrome-512x512-1-180x180.webp",
+      "small": "https://www.cloudzero.com/wp-content/uploads/2023/11/cropped-android-chrome-512x512-1-180x180.webp"
+    },
+    "rules": {
+      "keywords": [
+        "per-token metrics",
+        "unified dashboard",
+        "cloud costs",
+        "ai provider spending",
+        "openai",
+        "anthropic",
+        "granular visibility",
+        "cost allocation",
+        "proactive alerts",
+        "machine learning",
+        "infrastructure costs",
+        "per-model level",
+        "business outcomes",
+        "service quality",
+        "cloud management",
+        "ai infrastructure",
+        "token costs",
+        "multiple ai providers"
+      ]
+    },
+    "title": "Per-Token Metrics. One View.",
+    "description": "CloudZero provides specialized capabilities for companies deploying AI and machine learning workloads who face exponentially growing infrastructure costs that traditional cloud management tools cannot adequately track. The platform offers granular visibility into AI provider spending (OpenAI, Anthropic, etc.) alongside traditional cloud costs, enabling organizations to understand the direct correlation between AI investments and business outcomes. Companies can optimize AI infrastructure costs at a per-token or per-model level while ensuring they maintain the service quality and innovation speed that AI capabilities demand."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/images/A3Gou0wxRrL616BBmcyBOViFy8w.png",
+      "small": "https://framerusercontent.com/images/A3Gou0wxRrL616BBmcyBOViFy8w.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai data",
+        "adaptive thresholds",
+        "feedback",
+        "backfilling",
+        "historical patterns",
+        "visualizations",
+        "anomalies",
+        "traceability",
+        "failed records",
+        "data quality",
+        "data engineering",
+        "manual monitoring",
+        "data pipelines",
+        "false positives",
+        "system reliability",
+        "production environments",
+        "detection",
+        "resolution",
+        "row scale"
+      ]
+    },
+    "title": "AI That Learns Your Data",
+    "description": "Soda addresses the critical challenge faced by data engineering teams who must ensure data quality before issues cascade into production environments. Traditional manual approaches to data quality monitoring are too slow and error-prone for modern data pipelines processing billions of rows. Soda's AI-native platform automates the entire workflow from detection to resolution, with algorithms that scale to 1B rows in 64 seconds and reduce false positives by 70% compared to alternatives like Facebook Prophet. This enables teams to confidently deploy data while maintaining system reliability and preventing costly downstream impacts."
+  },
+  {
+    "image": {
+      "large": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-gartner-accouncement-new-image?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1269&hei=984&qlt=100&fmt=png-alpha&fit=constrain",
+      "small": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-gartner-accouncement-new-image?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1269&hei=984&qlt=100&fmt=png-alpha&fit=constrain"
+    },
+    "rules": {
+      "keywords": [
+        "enterprise ai",
+        "agent deployment",
+        "microsoft azure",
+        "azure foundry",
+        "ai applications",
+        "intelligent agents",
+        "azure openai",
+        "claude opus",
+        "secure deployment",
+        "observability",
+        "foundry control plane",
+        "business workflows",
+        "agentic advantage",
+        "model customization",
+        "custom agents",
+        "open cloud",
+        "data compute",
+        "reasoning analysis"
+      ]
+    },
+    "title": "Enterprise AI Application Development and Agent Deployment at Scale",
+    "description": "Microsoft Azure positions itself as the premier platform for enterprises seeking to build and deploy AI applications and intelligent agents at enterprise scale. Through Microsoft Foundry, organizations can design, customize, and manage AI apps with access to state-of-the-art models including Anthropic's Claude Opus 4.5, Azure OpenAI Service, and custom agent development capabilities. The platform emphasizes 'agentic advantage' with tools for secure deployment, end-to-end monitoring through Observability in Foundry Control Plane, and integration of reasoning, coding, and analysis directly into business workflows. Azure addresses the complexity of scaling AI by providing a unified platform where evolving models, data, and compute can optimize across an open cloud infrastructure."
+  },
+  {
+    "image": {
+      "large": "https://www.cypress.io/apple-touch-icon.png",
+      "small": "https://www.cypress.io/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai-powered code generation",
+        "cypress",
+        "automated tests",
+        "test development",
+        "natural language",
+        "test generation",
+        "runnable test code",
+        "cypress studio",
+        "user flows",
+        "intelligent recommendations",
+        "test authoring",
+        "test coverage",
+        "development velocity",
+        "record interactions",
+        "plain english"
+      ]
+    },
+    "title": "Accelerating Test Development with AI-Powered Code Generation",
+    "description": "Cypress addresses the significant time investment required for writing automated tests by introducing AI-powered test generation capabilities. Developers can describe user flows in natural language and watch Cypress instantly convert plain English into runnable test code, or use Cypress Studio to record interactions and receive intelligent AI recommendations. This capability transforms test authoring from a tedious, time-consuming process into a rapid workflow that allows teams to build comprehensive test coverage without sacrificing development velocity."
+  },
+  {
+    "image": {
+      "large": "https://d2qm0z2kzhiwa.cloudfront.net/assets/apple-touch-icon-ae782d6339f660e1c51fe68f58d7f0bb.png",
+      "small": "https://d2qm0z2kzhiwa.cloudfront.net/assets/apple-touch-icon-ae782d6339f660e1c51fe68f58d7f0bb.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai generated code",
+        "production scale",
+        "circleci",
+        "autonomous validation",
+        "chunk agent",
+        "code quality",
+        "security standards",
+        "ai coding assistants",
+        "cursor",
+        "claude code",
+        "24/7 monitoring",
+        "automatic fixes",
+        "testing rigor",
+        "production risks",
+        "human oversight",
+        "enterprise grade confidence"
+      ]
+    },
+    "title": "Validating AI-Generated Code at Production Scale",
+    "description": "CircleCI directly addresses the growing concern among development teams about deploying AI-generated code safely and reliably. As AI coding assistants like Cursor and Claude Code become mainstream, teams face the challenge of maintaining code quality and security standards while accelerating delivery. CircleCI's autonomous validation platform with Chunk agent provides 24/7 monitoring and automatic fixes, enabling teams to leverage AI productivity gains without compromising on testing rigor or introducing production risks. The platform validates every change with minimal human oversight while maintaining enterprise-grade confidence levels."
+  },
+  {
+    "image": {
+      "large": "https://www.gstatic.com/devrel-devsite/prod/ve31222845d1c7b1c5bd5ec59834d836e2338b44bb9e4138bc037c8f0912802a6/googledevai/images/touchicon-180-new.png",
+      "small": "https://www.gstatic.com/devrel-devsite/prod/ve31222845d1c7b1c5bd5ec59834d836e2338b44bb9e4138bc037c8f0912802a6/googledevai/images/touchicon-180-new.png"
+    },
+    "rules": {
+      "keywords": [
+        "google ai",
+        "developers",
+        "gemini models",
+        "api calls",
+        "ml expertise",
+        "infrastructure",
+        "ai studio",
+        "prompt testing",
+        "model evaluation",
+        "rapid prototyping",
+        "ai powered",
+        "imagen",
+        "veo",
+        "deployment",
+        "application integration",
+        "machine learning",
+        "concept prototype",
+        "google ai studio",
+        "feature development"
+      ]
+    },
+    "title": "AI in Hours, Not Months",
+    "description": "Google AI for Developers addresses the challenge of integrating sophisticated AI capabilities into applications without requiring deep machine learning expertise or extensive infrastructure setup. By providing straightforward API access to models like Gemini 2.0 Flash, Gemini 2.5 Pro, and specialized models like Imagen and Veo, the platform enables developers to rapidly prototype and deploy AI-powered features. The inclusion of Google AI Studio for prompt development and model evaluation further accelerates the development cycle, making it possible to move from concept to working prototype in significantly less time than traditional AI implementation approaches."
+  },
+  {
+    "image": {
+      "large": "https://www.ibm.com/content/dam/adobe-cms/default-images/apple-touch-icon-180x180.png",
+      "small": "https://www.ibm.com/content/dam/adobe-cms/default-images/apple-touch-icon-180x180.png"
+    },
+    "rules": {
+      "keywords": [
+        "enterprise ai",
+        "unstructured data",
+        "data management",
+        "vector database",
+        "nosql database",
+        "astra db",
+        "hyper-converged database",
+        "low-code development",
+        "langflow",
+        "data ingestion",
+        "data enrichment",
+        "data retrieval",
+        "enterprise security",
+        "data governance",
+        "production deployment",
+        "ai applications",
+        "data scale",
+        "unstructured assets"
+      ]
+    },
+    "title": "Enterprise AI Application Development with Unstructured Data Management",
+    "description": "IBM DataStax provides enterprises with a comprehensive platform for building accurate, production-ready AI applications by addressing the fundamental challenge of managing unstructured data at scale. The solution combines vector-capable NoSQL databases (Astra DB and Hyper-converged Database) with low-code development tools (Langflow) to automate data ingestion, enrichment, and retrieval while maintaining enterprise-grade security and governance. This integrated approach enables organizations to unlock insights from their unstructured data assets—which comprise the majority of enterprise data—and rapidly move from AI prototypes to production deployments across any infrastructure environment."
+  },
+  {
+    "image": {
+      "large": "https://www.sanity.io/static/images/favicons/apple-icon-180x180.png?v=2",
+      "small": "https://www.sanity.io/static/images/favicons/apple-icon-180x180.png?v=2"
+    },
+    "rules": {
+      "keywords": [
+        "ai-powered applications",
+        "custom backend",
+        "content backend",
+        "machine learning",
+        "natural language",
+        "automated workflows",
+        "code-first",
+        "content pipelines",
+        "content generation",
+        "content management",
+        "structured content",
+        "ai integration",
+        "chatbot",
+        "recommendation engine",
+        "intelligent content",
+        "customizable architecture",
+        "programmatic access"
+      ]
+    },
+    "title": "Building AI-Powered Content Applications with Custom Backend Infrastructure",
+    "description": "Sanity provides developers building AI-powered applications with a code-first content backend that enables seamless integration of machine learning models, natural language processing, and automated content workflows. Unlike traditional CMS platforms that constrain AI integration, Sanity's customizable architecture allows technical teams to structure content in ways that optimize for AI consumption and generation, create automated content pipelines, and build intelligent content experiences. This approach is critical for teams developing chatbots, content recommendation engines, automated content generation tools, or any application where AI needs programmatic access to structured content."
+  },
+  {
+    "image": {
+      "large": "https://snyk.io/_next/static/media/default-social.8953a9bd.jpg",
+      "small": "https://snyk.io/_next/static/media/default-social.8953a9bd.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "ai-generated code",
+        "secure ai",
+        "genai development",
+        "deepcode ai",
+        "vulnerability detection",
+        "automated detection",
+        "agentic fix",
+        "security guardrails",
+        "software development",
+        "development workflows",
+        "toolchains",
+        "curated security data",
+        "generative ai",
+        "code security"
+      ]
+    },
+    "title": "Securing AI-Generated Code in Modern Development Workflows",
+    "description": "Snyk directly addresses the emerging challenge of securing AI-generated code as development teams increasingly adopt generative AI tools for software development. The platform provides guardrails for GenAI development through its DeepCode AI engine, which is specifically trained on curated security data to identify vulnerabilities in AI-generated code. By offering both automated detection and agentic fix capabilities, Snyk enables developers to leverage AI productivity gains without compromising security, while integrating seamlessly into existing development workflows and toolchains."
+  },
+  {
+    "image": {
+      "large": "https://www.convex.dev/api/og?title=The%20backend%20platform%20that%20keeps%20your%20app%20in%20sync",
+      "small": "https://www.convex.dev/api/og?title=The%20backend%20platform%20that%20keeps%20your%20app%20in%20sync"
+    },
+    "rules": {
+      "keywords": [
+        "schedule ai",
+        "cron jobs",
+        "convex",
+        "type-safe typescript",
+        "llm integrations",
+        "anthropic calls",
+        "backend workflows",
+        "ai coding tools",
+        "scheduled tasks",
+        "database updates",
+        "unified platform",
+        "infrastructure management",
+        "asynchronous processing",
+        "content categorization",
+        "automated analysis",
+        "internal actions",
+        "ai-enhanced applications"
+      ]
+    },
+    "title": "Schedule AI, Not Servers",
+    "description": "Convex supports developers building AI-enhanced applications by providing a unified platform for defining scheduled jobs, backend workflows, and LLM integrations. The platform's pure TypeScript approach makes it exceptionally compatible with AI coding tools, which can generate high-quality Convex code with precision. Developers can create cron jobs that trigger internal actions, integrate with AI providers like Anthropic, and process data asynchronously while maintaining type safety throughout. This enables use cases like automated content categorization, scheduled AI analysis, and backend intelligence workflows without separate infrastructure."
+  },
+  {
+    "image": {
+      "large": "https://www.contentful.com/apple-touch-icon.png",
+      "small": "https://www.contentful.com/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai content",
+        "brand voice",
+        "contentful ai",
+        "content creation",
+        "brand guidelines",
+        "audience preferences",
+        "content translation",
+        "content personalization",
+        "brand authenticity",
+        "marketing ai",
+        "generic content",
+        "go to market",
+        "content scaling",
+        "brand standards",
+        "content generation"
+      ]
+    },
+    "title": "AI That Sounds Like You",
+    "description": "Contentful addresses marketers' growing need to leverage AI for content creation without sacrificing brand authenticity or voice. Many organizations struggle with AI-generated content that sounds generic, robotic, or off-brand, creating legal and brand reputation risks. Contentful's integrated AI capabilities generate, translate, and personalize content while staying within established brand guidelines, enabling teams to accelerate go-to-market speed by 10x while maintaining the authentic brand voice that resonates with audiences. This allows marketers to scale content production dramatically while ensuring every piece aligns with brand standards."
+  },
+  {
+    "image": {
+      "large": "https://cdn.pie.org/merchants/logos/vonage.jpg",
+      "small": "https://cdn.pie.org/merchants/logos/vonage.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "hotelbeds",
+        "vonage",
+        "cloud contact center",
+        "call answer rates",
+        "cost reduction",
+        "ai tools",
+        "agent productivity",
+        "customer satisfaction",
+        "enterprise flexibility",
+        "virtual contact center",
+        "legacy systems",
+        "customer service",
+        "infrastructure",
+        "roi",
+        "modernize",
+        "workflows"
+      ]
+    },
+    "title": "Better Service, Lower Costs",
+    "description": "Vonage addresses the challenge enterprises face when managing outdated contact center infrastructure that limits agent productivity and drives up costs. Companies like HotelBeds have successfully transitioned to Vonage's cloud-based virtual contact center, achieving improved call answer rates while reducing expenses. The platform combines traditional contact center capabilities with modern AI-powered insights and tools that help agents deliver better customer experiences, making it particularly valuable for organizations looking to modernize their customer service operations without disrupting existing workflows."
+  },
+  {
+    "image": {
+      "large": "https://www.gstatic.com/devrel-devsite/prod/ve31222845d1c7b1c5bd5ec59834d836e2338b44bb9e4138bc037c8f0912802a6/googledevai/images/touchicon-180-new.png",
+      "small": "https://www.gstatic.com/devrel-devsite/prod/ve31222845d1c7b1c5bd5ec59834d836e2338b44bb9e4138bc037c8f0912802a6/googledevai/images/touchicon-180-new.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai code",
+        "developer productivity",
+        "code assistance",
+        "google gemini",
+        "code completion",
+        "code analysis",
+        "contextual chat",
+        "autonomous agents",
+        "android studio",
+        "vs code",
+        "jetbrains ide",
+        "chrome devtools",
+        "firebase",
+        "google cloud",
+        "colab",
+        "debugging",
+        "code maintenance",
+        "natural language",
+        "workflow",
+        "ai augmentation"
+      ]
+    },
+    "title": "Developer Productivity Enhancement Through AI Code Assistance",
+    "description": "Google integrates Gemini AI assistance directly into the most popular development environments, transforming how developers write, debug, and maintain code. Rather than requiring context-switching to separate tools, developers gain access to intelligent code completion that understands natural language descriptions, automated code analysis that identifies issues and suggests improvements, contextual chat assistance that answers questions specific to their codebase, and autonomous agents capable of planning and executing complex tasks. This integration spans Android Studio, VS Code, JetBrains IDEs, Chrome DevTools, Firebase, Google Cloud, and Colab, enabling developers to maintain their preferred workflows while dramatically increasing productivity through AI augmentation."
+  },
+  {
+    "image": {
+      "large": "https://reflection.ai/apple-touch-icon.png",
+      "small": "https://reflection.ai/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "advanced ai",
+        "solo",
+        "reflection ai",
+        "frontier ai",
+        "ai capabilities",
+        "individual creators",
+        "developers",
+        "personal projects",
+        "small-scale projects",
+        "ai-powered tools",
+        "state-of-the-art technology",
+        "creative applications",
+        "side projects",
+        "open innovation",
+        "hobbyists",
+        "solo developers",
+        "ai enthusiasts",
+        "democratization",
+        "learn by doing"
+      ]
+    },
+    "title": "Advanced AI Models, Solo",
+    "description": "Reflection AI enables individual creators, developers, and AI enthusiasts to harness frontier-level artificial intelligence for personal projects without the barriers typically associated with advanced AI technology. Whether building creative applications, experimenting with AI capabilities, developing side projects, or exploring new ideas, individuals can access powerful intelligence tools previously available only to well-funded organizations. This democratization empowers solo developers and hobbyists to innovate, learn, and create using state-of-the-art AI technology on their own terms."
+  },
+  {
+    "image": {
+      "large": "https://graphite.com/favicon/apple-touch-icon.png",
+      "small": "https://graphite.com/favicon/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai powered",
+        "bug detection",
+        "ci cd",
+        "pull request",
+        "code quality",
+        "automated review",
+        "security vulnerabilities",
+        "performance issues",
+        "production bugs",
+        "merge checks",
+        "ai reviewer",
+        "coding workflow",
+        "human review",
+        "ci failures",
+        "large codebase",
+        "high signal",
+        "specific fixes",
+        "conversational interaction",
+        "development teams",
+        "shipping frequently"
+      ]
+    },
+    "title": "AI-Powered Bug Detection Before Merge in CI/CD Pipelines",
+    "description": "Graphite addresses the growing need for intelligent, automated code quality checks in modern development workflows by embedding AI-powered review capabilities directly into the pull request process. As engineering teams scale and code complexity increases, human reviewers can miss subtle bugs, security vulnerabilities, or performance issues that only become apparent in production. Graphite's AI reviewer analyzes every pull request to provide high-signal feedback that catches critical bugs before merge, suggests specific fixes, and can even resolve CI failures through conversational interaction within the PR page itself. This automated quality layer is particularly valuable for teams shipping frequently, working across time zones, or dealing with large codebases where comprehensive human review of every change becomes impractical, allowing developers to maintain high code quality standards without sacrificing velocity."
+  },
+  {
+    "image": {
+      "large": "https://www.compyle.ai/apple-touch-icon.png",
+      "small": "https://www.compyle.ai/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "real-time oversight",
+        "ai agents",
+        "code review",
+        "autonomous agents",
+        "development workflow",
+        "review tools",
+        "built-in overwatcher",
+        "established plans",
+        "coding patterns",
+        "proactive approach",
+        "bug prevention",
+        "debugging time",
+        "cleaner code",
+        "patch issues",
+        "codebase",
+        "ai pr review",
+        "workflow efficiency",
+        "backward workflow",
+        "code development",
+        "mistake catching"
+      ]
+    },
+    "title": "Fix Your Backwards Workflow",
+    "description": "Compyle fundamentally changes the AI code review paradigm by catching mistakes during development rather than after completion. The platform recognizes that the traditional workflow of using autonomous agents to write code, then using AI PR review tools to catch mistakes, is backwards and inefficient. Compyle's built-in Overwatcher guides the agent in real-time against established plans and patterns, preventing problems before they become embedded in the codebase. This proactive approach saves significant debugging time and produces cleaner initial output, eliminating the costly cycle of review, identify issues, and patch."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/assets/Bab0War93Jeq5MpDPwqKFiyI.png",
+      "small": "https://framerusercontent.com/assets/Bab0War93Jeq5MpDPwqKFiyI.png"
+    },
+    "rules": {
+      "keywords": [
+        "manual documentation",
+        "ai",
+        "brainstorms",
+        "organized content",
+        "blueprints",
+        "workflow automation",
+        "knowledge workers",
+        "creative teams",
+        "research synthesis",
+        "structured plans",
+        "productivity",
+        "time savings",
+        "formatting",
+        "process management"
+      ]
+    },
+    "title": "Stop Manual Documentation",
+    "description": "Miro harnesses artificial intelligence to eliminate the time-consuming manual work that bogs down knowledge workers and creative teams. AI features accelerate moving from unstructured ideas to organized documentation, synthesize research and insights automatically, and generate structured plans in seconds rather than hours. Combined with blueprints that codify and automate entire workflows, Miro enables teams to focus on high-value creative and strategic work while AI handles routine structuring, formatting, and synthesis tasks. This represents a fundamental shift in productivity for teams that previously spent significant time on manual documentation and process management."
+  },
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/6565737286e587567248583f/67cfea59e18d3302635fc356_Brand%20Icon%20180x180.png",
+      "small": "https://cdn.prod.website-files.com/6565737286e587567248583f/67cfea59e18d3302635fc356_Brand%20Icon%20180x180.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai agent",
+        "deployment",
+        "technical resources",
+        "ai automation",
+        "natural language",
+        "conversational flows",
+        "integrations",
+        "coding knowledge",
+        "customer interactions",
+        "no code",
+        "vibe agent",
+        "plivo",
+        "product owners",
+        "customer service",
+        "small business",
+        "implementation projects"
+      ]
+    },
+    "title": "Rapid AI Agent Deployment Without Technical Resources",
+    "description": "Plivo addresses the significant barrier many businesses face when trying to implement AI automation: the need for technical expertise and development resources. The platform's Vibe Agent builder uses natural language prompting to automatically construct conversational flows, set up integrations, and configure actions without requiring any coding knowledge. This democratizes access to AI agent technology for product owners, customer service managers, and small business operators who want to automate customer interactions but don't have engineering teams or the time for lengthy implementation projects."
+  },
+  {
+    "image": {
+      "large": null,
+      "small": null
+    },
+    "rules": {
+      "keywords": [
+        "csv exports",
+        "api first",
+        "machine consumption",
+        "people data",
+        "ai applications",
+        "structured data",
+        "real time",
+        "agent workflows",
+        "llm applications",
+        "data providers",
+        "confidence scores",
+        "reason codes",
+        "verified data",
+        "context aware",
+        "personalized experiences",
+        "organization data"
+      ]
+    },
+    "title": "Stop Fighting with CSV Exports",
+    "description": "Nyne.ai recognizes that AI agents and LLM applications require structured, reliable data about people and organizations to function effectively. Unlike traditional data providers focused on CSV exports for human analysis, Nyne.ai provides an API-first architecture specifically designed for machine consumption with structured formats, confidence scores, and reason codes that AI systems can interpret and act upon. This enables developers to build context-aware AI agents that can understand who they're interacting with, make intelligent decisions based on verified people data, and provide personalized experiences at scale."
+  },
+  {
+    "image": {
+      "large": "https://www.sonarsource.com/app-icon.png",
+      "small": "https://www.sonarsource.com/app-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "real-time analysis",
+        "sonarqube",
+        "static analysis",
+        "ai fix",
+        "quality gates",
+        "ci cd",
+        "quality metrics",
+        "human code",
+        "ai code",
+        "sast tools",
+        "development workflows",
+        "ai-generated code",
+        "security vulnerabilities",
+        "code quality",
+        "github copilot",
+        "chatgpt",
+        "real-time feedback",
+        "trust layer",
+        "productivity gains",
+        "security standards"
+      ]
+    },
+    "title": "Real-Time AI Code Analysis",
+    "description": "SonarQube addresses the emerging challenge of validating AI-generated code by providing comprehensive static analysis that treats AI assistant contributions with the same rigor as human-written code. As development teams increasingly adopt AI coding tools like GitHub Copilot and ChatGPT, they face the critical challenge of ensuring these AI suggestions don't introduce security vulnerabilities or quality issues. SonarQube offers real-time feedback, deep static analysis, and AI-powered fix suggestions that create a trust layer for AI code, allowing teams to confidently leverage AI productivity gains while maintaining security and quality standards."
+  },
+  {
+    "image": {
+      "large": "https://www.netlify.com/favicon/apple-touch-icon.png",
+      "small": "https://www.netlify.com/favicon/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai application",
+        "unified gateway",
+        "netlify",
+        "ai gateway",
+        "language models",
+        "api keys",
+        "usage tracking",
+        "cost monitoring",
+        "authentication",
+        "openai",
+        "anthropic",
+        "gemini",
+        "model switching",
+        "dashboard",
+        "safeguards",
+        "content generation",
+        "ai-assisted applications",
+        "development velocity"
+      ]
+    },
+    "title": "AI Application Development with Unified Gateway Management",
+    "description": "Netlify addresses the growing complexity developers face when building AI-powered applications that leverage multiple language models and providers. Rather than managing separate API keys, tracking usage across different platforms, and handling authentication for OpenAI, Anthropic, Gemini, and others, Netlify's AI Gateway provides a single integration point that routes requests to 30+ models. This unified approach includes built-in usage tracking, cost monitoring, and safeguards, allowing developers to experiment with different AI providers, switch models dynamically, and monitor aggregate spending in one dashboard. For teams building everything from content generation tools to AI-assisted applications, this consolidation reduces operational overhead and accelerates development velocity."
+  },
+  {
+    "image": {
+      "large": "https://cdn.pie.org/merchants/logos/alibabacloud.jpg",
+      "small": "https://cdn.pie.org/merchants/logos/alibabacloud.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "data analytics",
+        "quick bi",
+        "alibaba cloud",
+        "ai automation",
+        "data visualization",
+        "actionable insights",
+        "business teams",
+        "decision making",
+        "free webinars",
+        "technical specialists",
+        "data-driven",
+        "analytics modernization",
+        "cost reduction",
+        "data sources",
+        "decision support"
+      ]
+    },
+    "title": "Data Decisions in Minutes",
+    "description": "Alibaba Cloud's Quick BI addresses the growing need for businesses to modernize their data analytics capabilities by incorporating AI-driven insights into decision-making processes. As organizations accumulate vast amounts of data across multiple sources, Quick BI provides an accessible entry point through free webinars that demonstrate how AI can automate complex data analysis tasks, generate visualizations, and surface actionable insights without requiring extensive data science expertise. This democratization of advanced analytics enables business teams to make data-driven decisions faster while reducing dependency on specialized technical resources."
+  },
+  {
+    "image": {
+      "large": "https://replit.com/public/images/opengraph_rebrand.jpg",
+      "small": "https://replit.com/public/images/opengraph_rebrand.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "design handoff",
+        "replit",
+        "designers",
+        "figma",
+        "visual editor",
+        "design systems",
+        "code",
+        "deployment",
+        "website",
+        "prototypes",
+        "autonomy",
+        "workflow",
+        "ai",
+        "implementation",
+        "developer availability"
+      ]
+    },
+    "title": "End The Design Handoff",
+    "description": "Replit bridges the long-standing gap between design vision and functional implementation that has frustrated designers throughout their careers. The platform empowers designers to transform Figma files, visual concepts, and design systems into working, deployed websites without writing code or waiting for developer availability. With granular design controls and a live visual editor, designers maintain creative control while AI handles the technical implementation, enabling them to ship portfolio sites, client prototypes, and interactive experiences independently. This represents a fundamental shift in designer autonomy and creative workflow."
+  },
+  {
+    "image": {
+      "large": "https://axiom.co/social-card-main.png",
+      "small": "https://axiom.co/social-card-main.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai features",
+        "user feedback",
+        "execution traces",
+        "prompt variants",
+        "historical data",
+        "offline evaluations",
+        "observability",
+        "ai applications",
+        "logging",
+        "llm interactions",
+        "agent workflows",
+        "multi-provider",
+        "ai engineering",
+        "prompt effectiveness",
+        "reasoning chains",
+        "token costs",
+        "agent tool usage",
+        "curated test sets",
+        "regressions",
+        "production"
+      ]
+    },
+    "title": "Ship AI Features Confidently",
+    "description": "Axiom addresses the emerging challenge of observability for AI-powered applications, where traditional logging falls short of capturing the complexity of LLM interactions, agent workflows, and multi-provider architectures. AI engineering teams need to evaluate prompt effectiveness, understand multi-step reasoning chains, and optimize costs across OpenAI, Anthropic, and other providers. Axiom's built-in AI telemetry automatically captures conversation structure, calculates token costs, traces agent tool usage, and enables offline evaluations against curated test sets. This empowers teams to iterate confidently on AI capabilities, catch regressions before production, and continuously improve based on user feedback linked directly to execution traces."
+  },
+  {
+    "image": {
+      "large": "https://surrealdb.com/assets/static/main.CCTckWB9.png",
+      "small": "https://surrealdb.com/assets/static/main.CCTckWB9.png"
+    },
+    "rules": {
+      "keywords": [
+        "graph search",
+        "vector search",
+        "semantic retrieval",
+        "openai",
+        "langchain",
+        "crewaI",
+        "hybrid search",
+        "ai agents",
+        "generative ai",
+        "vector embeddings",
+        "full-text search",
+        "relational queries",
+        "database infrastructure",
+        "search and retrieval",
+        "contextual memory"
+      ]
+    },
+    "title": "GraphRAG Meets Vector Search",
+    "description": "SurrealDB addresses the infrastructure burden faced by developers building modern AI agents and generative AI applications. Traditional approaches require orchestrating separate databases for vectors, graphs, documents, and relational data, creating operational complexity and increased costs. SurrealDB unifies these capabilities natively with integrated search and retrieval that blends semantic, graph, and relational intelligence. This allows developers to focus on building intelligent applications rather than managing database infrastructure, while providing the context-aware data layer that AI agents require for memory and action."
+  },
+  {
+    "image": {
+      "large": "https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png",
+      "small": "https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png"
+    },
+    "rules": {
+      "keywords": [
+        "genai",
+        "privacy",
+        "databricks",
+        "agent bricks",
+        "ai agents",
+        "data protection",
+        "business data",
+        "custom agents",
+        "governance",
+        "compliance",
+        "sensitive information",
+        "external models",
+        "proprietary data",
+        "enterprise ai",
+        "data security",
+        "regulatory compliance"
+      ]
+    },
+    "title": "Deploy GenAI. Keep Privacy.",
+    "description": "Databricks enables enterprises to build and deploy AI agents trained on their proprietary business data without compromising privacy or control. Organizations need custom AI solutions that understand their specific business context, industry knowledge, and operational data. Databricks provides the infrastructure to develop these intelligent agents while maintaining complete governance over sensitive information. This addresses the critical challenge of leveraging AI technology while ensuring data security and regulatory compliance."
+  },
+  {
+    "image": {
+      "large": "https://victorious-bubble-f69a016683.media.strapiapp.com/og_home_3a0c2bf16f.png",
+      "small": "https://victorious-bubble-f69a016683.media.strapiapp.com/og_home_3a0c2bf16f.png"
+    },
+    "rules": {
+      "keywords": [
+        "automated review",
+        "code review",
+        "github",
+        "gitlab",
+        "pull request",
+        "bug detection",
+        "ai coding",
+        "code quality",
+        "workflow automation",
+        "instant feedback",
+        "review process",
+        "code generation",
+        "copilot",
+        "automated summaries",
+        "dependency analysis",
+        "human reviewers",
+        "deployment",
+        "software development"
+      ]
+    },
+    "title": "Automated Review Intelligence",
+    "description": "CodeRabbit solves the fundamental mismatch between AI-accelerated code generation and traditional code review processes. As development teams increasingly use AI coding assistants like Copilot to write code faster, the review process has become the primary bottleneck preventing rapid deployment. CodeRabbit automates the time-consuming aspects of code review—finding bugs, checking standards, analyzing dependencies—while enabling human reviewers to focus on the final 10% of strategic decisions. This allows teams to maintain code quality without sacrificing the velocity gains from AI-assisted development."
+  },
+  {
+    "image": {
+      "large": "https://repomix.com/images/pwa/repomix-192x192.png",
+      "small": "https://repomix.com/images/pwa/repomix-192x192.png"
+    },
+    "rules": {
+      "keywords": [
+        "documentation",
+        "codebase",
+        "onboarding",
+        "ai tools",
+        "comprehensive docs",
+        "architecture",
+        "technical writing",
+        "developer onboarding",
+        "code context",
+        "repository",
+        "legacy codebase",
+        "automated documentation",
+        "code sync",
+        "file structure",
+        "ai assistant"
+      ]
+    },
+    "title": "Onboard Developers in Hours",
+    "description": "Repomix helps development teams and technical writers generate accurate, comprehensive documentation by providing AI tools with complete codebase context in a single package. Instead of manually documenting every component or trying to understand complex project structures file-by-file, teams can leverage AI assistants to analyze the entire repository and automatically generate documentation, architecture explanations, and onboarding materials. This accelerates new developer onboarding, keeps documentation in sync with code, and makes complex legacy codebases more accessible by enabling AI-powered exploration and explanation."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/images/tDwSaiesO0WQEDOQyKqAKb0ZNY.png",
+      "small": "https://framerusercontent.com/images/tDwSaiesO0WQEDOQyKqAKb0ZNY.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai citations",
+        "seo metrics",
+        "ai platforms",
+        "brand mentions",
+        "monitoring",
+        "baseline performance",
+        "ai discovery",
+        "revenue attribution",
+        "marketing performance",
+        "recommendation channel",
+        "citation frequency",
+        "chatgpt",
+        "perplexity",
+        "gemini",
+        "claude",
+        "conversion tracking",
+        "ai visibility",
+        "geo investments",
+        "roi",
+        "analytics"
+      ]
+    },
+    "title": "Can't Measure AI Citations?",
+    "description": "Prompting Company addresses the challenge of measuring marketing performance in the emerging AI recommendation channel where traditional SEO metrics don't apply. As B2B companies invest in AI visibility strategies, they need concrete ways to track citation frequency across ChatGPT, Perplexity, Gemini, and Claude, measure brand mention rates, and attribute conversions to AI-driven discovery. The service provides monitoring infrastructure and analytics that enable data-driven optimization of GEO investments, helping marketing teams demonstrate ROI and justify continued investment in this new channel."
+  },
+  {
+    "image": {
+      "large": "https://bitrig.com/apple-icon.png?0b14c583a57364a3",
+      "small": "https://bitrig.com/apple-icon.png?0b14c583a57364a3"
+    },
+    "rules": {
+      "keywords": [
+        "bitrig",
+        "mobile apps",
+        "iphone apps",
+        "swift code",
+        "swiftui",
+        "ai interface",
+        "natural language",
+        "app development",
+        "coding barrier",
+        "creative individuals",
+        "functional apps",
+        "programming syntax",
+        "technical complexity",
+        "conversational ai",
+        "no coding",
+        "idea to app",
+        "code generation",
+        "user creativity",
+        "problem solving",
+        "learning curve"
+      ]
+    },
+    "title": "Your Ideas Deserve Apps",
+    "description": "Bitrig addresses the fundamental barrier that prevents creative individuals from building mobile apps: the technical complexity of traditional programming. By offering a conversational AI interface that translates natural language into real Swift and SwiftUI code, Bitrig democratizes app development for anyone with ideas but no coding background. This approach removes years of learning curves and allows users to focus on creativity and problem-solving rather than syntax and technical setup."
+  },
+  {
+    "image": {
+      "large": "https://www.onspace.ai/static/apple-touch-icon.png",
+      "small": "https://www.onspace.ai/static/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "mobile app",
+        "app development",
+        "smartphone",
+        "real-time edits",
+        "ios",
+        "android",
+        "side hustlers",
+        "freelancers",
+        "creators",
+        "mobile creator",
+        "launch",
+        "productive development",
+        "commute",
+        "travel",
+        "app ideas",
+        "onspace ai"
+      ]
+    },
+    "title": "No Desk? No Problem.",
+    "description": "OnSpace.AI recognizes that inspiration and opportunity don't always strike when you're at your desk. For side hustlers, freelancers, and creators balancing multiple commitments, the ability to build and iterate on app ideas from a smartphone transforms dead time into productive development sessions. Whether commuting, traveling, or simply away from a computer, users can capture ideas immediately and make real-time edits that keep projects moving forward—a crucial advantage for those who can't dedicate traditional office hours to development work."
+  },
+  {
+    "image": {
+      "large": "https://www.kamatera.com/wp-content/uploads/cropped-cropped-06169472-7db8-4ba3-91f6-3b4e34b5e168-1-180x180.png",
+      "small": "https://www.kamatera.com/wp-content/uploads/cropped-cropped-06169472-7db8-4ba3-91f6-3b4e34b5e168-1-180x180.png"
+    },
+    "rules": {
+      "keywords": [
+        "web developers",
+        "digital agencies",
+        "hosting infrastructure",
+        "rapid deployment",
+        "client websites",
+        "custom applications",
+        "wordpress servers",
+        "web hosting",
+        "app servers",
+        "development servers",
+        "cpu ram",
+        "storage",
+        "configuration consistency",
+        "client projects",
+        "predictable costs",
+        "reliable performance",
+        "technical support"
+      ]
+    },
+    "title": "Web Developers and Agencies Deploying Client Sites and Applications",
+    "description": "Kamatera provides web developers and digital agencies with flexible hosting infrastructure designed for rapid deployment of client websites and custom applications. The platform offers pre-configured WordPress servers optimized for quick setup, customizable web hosting servers where CPU, RAM, and storage can be adjusted to specific project requirements, and dedicated app servers for building custom solutions. Development servers can be easily created, replicated, or deleted while maintaining configuration consistency across multiple client projects, enabling agencies to efficiently manage diverse portfolios with predictable costs and reliable performance backed by 24/7 technical support."
+  },
+  {
+    "image": {
+      "large": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/523622-desktop-logogrid-researchinsights-logo-forrester?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=123&hei=96&qlt=100&fmt=png-alpha&fit=constrain",
+      "small": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/523622-desktop-logogrid-researchinsights-logo-forrester?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=123&hei=96&qlt=100&fmt=png-alpha&fit=constrain"
+    },
+    "rules": {
+      "keywords": [
+        "ai-powered development",
+        "github copilot",
+        "azure devops",
+        "microsoft azure",
+        "devops mcp",
+        "azure boards",
+        "azure pipelines",
+        "work items",
+        "pull requests",
+        "test plans",
+        "builds",
+        "software lifecycle",
+        "code generation",
+        "deployment",
+        "planning",
+        "testing",
+        "integration",
+        "development time",
+        "ai agents",
+        "coding assistance"
+      ]
+    },
+    "title": "AI-Powered Development Acceleration with GitHub Copilot Integration",
+    "description": "Microsoft Azure DevOps enables development teams to harness AI-powered coding assistance through deep integration with GitHub Copilot, creating a seamless workflow from planning to deployment. The Azure DevOps MCP Server allows Copilot to interact directly with work items, pull requests, test plans, and builds, enabling developers to kick off tasks from Azure Boards and use AI agents to generate contextually-aware code. Companies like Visma demonstrate real results with 50% reduction in development time by combining GitHub Copilot with Azure Pipelines and Azure DevOps workflows. The platform positions AI not as a separate tool but as an integrated capability that accelerates every stage of the software development lifecycle, from initial planning through testing and deployment."
+  },
+  {
+    "image": {
+      "large": "https://cdn.fuego.io/GVsYjkiCuxx-1OGrwTgOM.png",
+      "small": "https://cdn.fuego.io/GVsYjkiCuxx-1OGrwTgOM.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai customization",
+        "app screens",
+        "conversational commands",
+        "personalized notifications",
+        "seasonal campaigns",
+        "layout suggestions",
+        "content creation",
+        "mobile app",
+        "shopping history",
+        "brand matching",
+        "app management",
+        "design assistant",
+        "merchant tools",
+        "artificial intelligence",
+        "premium experiences"
+      ]
+    },
+    "title": "Your 24/7 Design Assistant",
+    "description": "Fuego leverages artificial intelligence to democratize mobile app customization, allowing merchants without design expertise to create sophisticated, personalized shopping experiences through simple conversational commands. The AI agent (Apa) can generate entire screens on demand, suggest layouts, personalize notifications for individual customers, and assist with content creation - transforming app management from a technical challenge into a natural conversation. This capability is particularly valuable for merchants who want premium, customized mobile experiences but lack the resources for dedicated design and development teams."
+  },
+  {
+    "image": {
+      "large": "https://www.postman.com/_mk-www-next/icons/android-chrome-512x512.png",
+      "small": "https://www.postman.com/_mk-www-next/icons/android-chrome-512x512.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai compatible apis",
+        "intelligent agents",
+        "api integration",
+        "model context protocol",
+        "mcp support",
+        "workflow automation",
+        "api infrastructure",
+        "future-proofing",
+        "deployment framework",
+        "api testing",
+        "structured apis",
+        "enterprise adoption",
+        "human developers",
+        "intelligent automation",
+        "postman",
+        "agent integration",
+        "api design",
+        "trust",
+        "rapid deployment"
+      ]
+    },
+    "title": "Building AI-Compatible APIs for Intelligent Agent Integration",
+    "description": "Postman recognizes that most existing APIs weren't designed with AI agents in mind, creating friction as organizations attempt to integrate intelligent automation into their workflows. The platform addresses this critical gap by providing built-in Model Context Protocol (MCP) support and a structured 90-day deployment framework that ensures APIs are properly structured, thoroughly tested, and trusted by both human developers and AI agents. This theme represents the urgent need for development teams to future-proof their API infrastructure as AI adoption accelerates across enterprises."
+  },
+  {
+    "image": {
+      "large": "https://cdn.pie.org/merchants/logos/mongodb.jpg",
+      "small": "https://cdn.pie.org/merchants/logos/mongodb.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "vector search",
+        "mongodb atlas",
+        "automated embedding",
+        "voyage models",
+        "semantic search",
+        "embedding infrastructure",
+        "generative ai",
+        "data silos",
+        "unified platform",
+        "vector database",
+        "operational data",
+        "unstructured data",
+        "recommendation engines",
+        "q&a systems",
+        "contextual ai",
+        "time series",
+        "external models",
+        "one click",
+        "structured data",
+        "database systems"
+      ]
+    },
+    "title": "Vector Search in One Click",
+    "description": "MongoDB Atlas addresses the critical challenge developers face when building AI applications that require seamless access to both operational and vector data. As organizations increasingly adopt generative AI and semantic search capabilities, they struggle with managing fragmented data silos across multiple specialized databases. MongoDB Atlas provides a unified database platform that consolidates structured and unstructured data—text, video, audio, and time series—eliminating the complexity of synchronizing separate operational and vector database systems. The platform's integrated vector database capabilities enable semantic search, recommendation engines, Q&A systems, and contextual AI applications, while the recently introduced Automated Embedding feature allows developers to implement one-click vector search without managing external embedding models."
+  },
+  {
+    "image": {
+      "large": "https://magic.dev/opengraph-image.png?1b6c3858ea92e7c5",
+      "small": "https://magic.dev/opengraph-image.png?1b6c3858ea92e7c5"
+    },
+    "rules": {
+      "keywords": [
+        "software engineering",
+        "context window",
+        "h100 gpus",
+        "reinforcement learning",
+        "coding patterns",
+        "ai pair programmer",
+        "code models",
+        "ultra-long context",
+        "code generation",
+        "debugging",
+        "refactoring",
+        "codebase",
+        "dedicated infrastructure"
+      ]
+    },
+    "title": "100M Token Context Window",
+    "description": "Magic develops advanced AI code models specifically designed to automate software engineering tasks and serve as an AI pair programmer. Unlike general-purpose AI assistants, Magic's models are built with frontier-scale training, domain-specific reinforcement learning for coding tasks, and ultra-long context windows that can understand massive codebases. This enables developers to leverage AI for code generation, debugging, refactoring, and other engineering workflows with unprecedented context awareness and accuracy."
+  },
+  {
+    "image": {
+      "large": "https://storage.googleapis.com/use-tusk-dev-static/apple-touch-icon.png",
+      "small": "https://storage.googleapis.com/use-tusk-dev-static/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai coding",
+        "zero regressions",
+        "productivity boost",
+        "hidden bugs",
+        "subtle regressions",
+        "human reviewers",
+        "testing infrastructure",
+        "ai agents",
+        "copilots",
+        "production traffic",
+        "business context",
+        "invisible regressions",
+        "safety net",
+        "reliable development",
+        "edge cases"
+      ]
+    },
+    "title": "AI Speed + Zero Regressions",
+    "description": "Tusk provides critical testing infrastructure for teams adopting AI coding agents and copilots, addressing the unique challenge of catching regressions that AI-generated code might introduce. As AI coding tools become more prevalent, they can make subtle changes that pass human review but introduce bugs or break edge cases. Tusk's AI-enabled testing analyzes production traffic and business context to detect these invisible regressions, providing a comprehensive safety net that enables teams to confidently leverage AI coding acceleration without sacrificing reliability."
+  },
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/6618f6e1f5adf20e074c3a5b/66e28d73387f378691e94fb4_FAvicon%20256.png",
+      "small": "https://cdn.prod.website-files.com/6618f6e1f5adf20e074c3a5b/66e28d73387f378691e94fb4_FAvicon%20256.png"
+    },
+    "rules": {
+      "keywords": [
+        "natural language search",
+        "semantic search",
+        "conversational queries",
+        "intent",
+        "context",
+        "keyword matching",
+        "intelligent suggestions",
+        "api capabilities",
+        "contextual answers",
+        "api documentation",
+        "natural language queries",
+        "precise answers",
+        "developer satisfaction",
+        "time to integration",
+        "documentation search",
+        "hierarchical structures",
+        "implementation details"
+      ]
+    },
+    "title": "Natural Language AI Search",
+    "description": "Theneo's AI-powered search transforms how developers interact with API documentation by enabling natural language queries that deliver precise answers instantly. Traditional documentation search relies on keyword matching and requires developers to know exactly what to search for and navigate hierarchical structures. Theneo's AI understands context and intent, allowing developers to ask questions conversationally and receive relevant information even when they don't know the exact terminology. This significantly reduces time-to-integration and improves developer satisfaction by eliminating the frustration of hunting through documentation for specific implementation details."
+  },
+  {
+    "image": {
+      "large": "https://a.storyblok.com/f/89137/1840x1142/548f935261/anima-the-ux-design-agent.png",
+      "small": "https://a.storyblok.com/f/89137/1840x1142/548f935261/anima-the-ux-design-agent.png"
+    },
+    "rules": {
+      "keywords": [
+        "figma",
+        "api",
+        "code",
+        "frontend",
+        "ai agents",
+        "coding platforms",
+        "design to code",
+        "production ready",
+        "development platforms",
+        "bolt.new",
+        "pixel perfect",
+        "design files",
+        "code generation",
+        "design handoff",
+        "workflow automation",
+        "developer teams"
+      ]
+    },
+    "title": "Figma-to-Code via API",
+    "description": "Anima addresses the time-consuming challenge developers face when converting design files into functional frontend code. By offering API access that connects Figma directly to coding AI agents and development platforms, developers can automate the design-to-code translation process. This eliminates hours of manual pixel-pushing, reduces design-development handoff friction, and ensures pixel-perfect implementation of designer intent. The platform particularly benefits development teams building coding agents or platforms that need reliable design-aware code generation capabilities."
+  },
+  {
+    "image": {
+      "large": "https://cdn.pie.org/merchants/logos/crazydomains.jpg",
+      "small": "https://cdn.pie.org/merchants/logos/crazydomains.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "gmail address",
+        "business email",
+        "professional email",
+        "branded email",
+        "small business",
+        "email hosting",
+        "google workspace",
+        "email exchange",
+        "domain addresses",
+        "customer trust",
+        "business credibility",
+        "team email",
+        "enterprise email",
+        "technical skills",
+        "setup management"
+      ]
+    },
+    "title": "Ditch That Gmail Address",
+    "description": "Crazy Domains recognizes that small business credibility often hinges on professional communication tools. Business owners using personal Gmail or Yahoo addresses risk appearing unprofessional or untrustworthy to potential customers. Professional email hosting with branded domain addresses (yourname@yourbusiness.com) signals legitimacy and established operations. The offering includes Google Workspace integration and Email Exchange options, providing small businesses with enterprise-level email capabilities at accessible price points, while saving time through simplified setup and management."
+  },
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/67b4ee6d575c6f47fb2345f2/698ba1ea94f1cfa79d7613f5_LP_open-graph.avif",
+      "small": "https://cdn.prod.website-files.com/67b4ee6d575c6f47fb2345f2/698ba1ea94f1cfa79d7613f5_LP_open-graph.avif"
+    },
+    "rules": {
+      "keywords": [
+        "marketing strategies",
+        "team alignment",
+        "prezi ai",
+        "strategy presentations",
+        "marketing teams",
+        "stakeholder communication",
+        "kpis",
+        "market trends",
+        "campaign results",
+        "future plans",
+        "visually compelling",
+        "professional presentations",
+        "data clarity",
+        "creative presentations",
+        "strategic direction",
+        "ai-powered platform",
+        "executive engagement",
+        "team communication"
+      ]
+    },
+    "title": "Marketing Strategies That Align Teams Instantly",
+    "description": "Marketing professionals must regularly present strategies, campaign results, and future plans to stakeholders, requiring presentations that balance data, creativity, and clarity. Prezi addresses this challenge by enabling marketing teams to quickly transform complex strategies into visually compelling, easy-to-understand presentations that ensure alignment across teams. The AI-powered platform helps marketers showcase KPIs, market trends, and strategic direction in formats that engage executives and team members alike, making strategic communication more effective and efficient."
+  },
+  {
+    "image": {
+      "large": "https://weaviate.io/og/website/home.jpg",
+      "small": "https://weaviate.io/og/website/home.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "database agents",
+        "weaviate",
+        "vector search",
+        "context retrieval",
+        "ai agents",
+        "multi-tenant workflows",
+        "enterprise security",
+        "compliance",
+        "knowledge bases",
+        "autonomous systems",
+        "data improvement",
+        "informed decisions",
+        "query response",
+        "infrastructure",
+        "agentic systems",
+        "workflow execution",
+        "relevant context",
+        "multi-step workflows"
+      ]
+    },
+    "title": "Database Agents Built In",
+    "description": "Weaviate enables developers to build AI agent systems that autonomously access and reason over knowledge bases. As AI applications evolve beyond simple query-response patterns, agents need reliable infrastructure to retrieve information, make decisions, and execute multi-step workflows. Weaviate provides the database foundation for agentic systems with database agents that can interact with and improve data autonomously, plus the vector search capabilities agents need to retrieve relevant context and make informed decisions across complex workflows."
+  },
+  {
+    "image": {
+      "large": "https://static1.smartbear.co/smartbearbrand/media/sb-images/smartbear-meta-default.png",
+      "small": "https://static1.smartbear.co/smartbearbrand/media/sb-images/smartbear-meta-default.png"
+    },
+    "rules": {
+      "keywords": [
+        "automated testing",
+        "cross-platform",
+        "enterprise scale",
+        "smartbear",
+        "ui testing",
+        "desktop testing",
+        "mobile testing",
+        "api testing",
+        "ai-powered",
+        "test generation",
+        "natural language",
+        "self-healing",
+        "test data",
+        "test management",
+        "zephyr",
+        "qmetry",
+        "ci/cd integration",
+        "regression testing",
+        "qa teams",
+        "workflow integration"
+      ]
+    },
+    "title": "Automated Cross-Platform Testing at Enterprise Scale",
+    "description": "SmartBear addresses the complex challenge of testing modern applications at enterprise scale by providing comprehensive automation tools that work across UI, desktop, mobile, and API layers. The platform enables organizations to accelerate testing cycles through AI-powered test generation that creates tests from natural language prompts, self-healing capabilities when applications change, and smart test data generation. With enterprise test management tools like Zephyr and QMetry, teams gain full visibility into test planning, execution, and reporting, while CI/CD integration ensures testing fits seamlessly into existing workflows. This comprehensive approach helps QA teams manage testing at scale while reducing manual effort by up to 98% and saving over 20 hours per regression cycle."
+  },
+  {
+    "image": {
+      "large": "https://weaviate.io/og/website/home.jpg",
+      "small": "https://weaviate.io/og/website/home.jpg"
+    },
+    "rules": {
+      "keywords": [
+        "weaviate",
+        "ai agents",
+        "vector search",
+        "database foundation",
+        "knowledge bases",
+        "autonomous systems",
+        "multi-step workflows",
+        "query response",
+        "agentic workflows",
+        "data retrieval",
+        "decision making",
+        "context retrieval",
+        "complex workflows",
+        "database agents",
+        "ai applications"
+      ]
+    },
+    "title": "Beyond RAG. Meet Agents.",
+    "description": "Weaviate enables developers to build AI agent systems that autonomously access and reason over knowledge bases. As AI applications evolve beyond simple query-response patterns, agents need reliable infrastructure to retrieve information, make decisions, and execute multi-step workflows. Weaviate provides the database foundation for agentic systems with database agents that can interact with and improve data autonomously, plus the vector search capabilities agents need to retrieve relevant context and make informed decisions across complex workflows."
+  },
+  {
+    "image": {
+      "large": "https://redis.io/apple-icon.png?b1dad6ebc6bf461a",
+      "small": "https://redis.io/apple-icon.png?b1dad6ebc6bf461a"
+    },
+    "rules": {
+      "keywords": [
+        "native framework support",
+        "redisvl",
+        "agentic frameworks",
+        "pre-built abstractions",
+        "vector database",
+        "amazon bedrock",
+        "mem0",
+        "ai platforms",
+        "langgraph",
+        "langchain",
+        "llamaindex",
+        "openai",
+        "nvidia",
+        "integration complexity",
+        "ai agents",
+        "developer tools",
+        "high-performance",
+        "ecosystem approach"
+      ]
+    },
+    "title": "Native Framework Support",
+    "description": "Redis recognizes that developers building AI agents need seamless integration with the frameworks and tools they already use. By partnering with leading agentic frameworks like LangGraph, LangChain, and LlamaIndex, along with major AI platforms including OpenAI, Amazon Bedrock, Mem0, and NVIDIA, Redis enables developers to accelerate their AI agent development without wrestling with integration complexity. This ecosystem approach allows developers to leverage familiar tools while benefiting from Redis's high-performance vector database capabilities."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/images/tDwSaiesO0WQEDOQyKqAKb0ZNY.png",
+      "small": "https://framerusercontent.com/images/tDwSaiesO0WQEDOQyKqAKb0ZNY.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai visibility",
+        "seo",
+        "chatgpt",
+        "perplexity",
+        "gemini",
+        "claude",
+        "ai citation",
+        "product advice",
+        "content optimization",
+        "ai recommendations",
+        "customer discovery",
+        "search engines",
+        "b2b companies",
+        "market share"
+      ]
+    },
+    "title": "Invisible to AI Systems?",
+    "description": "Prompting Company addresses the fundamental shift in how customers discover products, moving from traditional search engine queries to asking AI systems for recommendations. As businesses invest heavily in SEO for Google visibility, they risk becoming invisible in the emerging channel where customers increasingly turn for product advice. This service provides a systematic approach to ensure B2B companies maintain visibility in AI-generated recommendations, protecting market share as customer discovery behavior evolves away from traditional search engines."
+  },
+  {
+    "image": {
+      "large": "https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/68daab6373fa3a84666303bd_favicon-mezmo-256.png",
+      "small": "https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/68daab6373fa3a84666303bd_favicon-mezmo-256.png"
+    },
+    "rules": {
+      "keywords": [
+        "telemetry cost",
+        "observability",
+        "data reduction",
+        "data volume",
+        "log storage",
+        "metrics",
+        "traces",
+        "intelligent filtering",
+        "parsing",
+        "agentic routing",
+        "active telemetry",
+        "indexed data",
+        "stored data",
+        "prompt bloat",
+        "token usage",
+        "context-first pipeline",
+        "ai workflows",
+        "noise reduction",
+        "data streams",
+        "cost optimization"
+      ]
+    },
+    "title": "Telemetry Cost Optimization Through Intelligent Data Volume Reduction",
+    "description": "Mezmo addresses one of the most pressing challenges in modern observability: the exploding costs of telemetry data storage and processing. As systems generate increasingly massive volumes of logs, metrics, and traces, organizations face ballooning bills from their observability platforms. Mezmo's Active Telemetry platform uses intelligent filtering, parsing, and agentic routing to ensure only valuable data is indexed and stored. The platform achieves 50% reductions in overall data volume by eliminating noise and optimizing data streams. For AI-powered workflows, Mezmo's context-first pipeline approach reduces prompt bloat and token usage by 95%, dramatically cutting per-incident costs while maintaining or improving output quality."
+  },
+  {
+    "image": {
+      "large": "https://www.netlify.com/favicon/apple-touch-icon.png",
+      "small": "https://www.netlify.com/favicon/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai application",
+        "unified gateway",
+        "netlify",
+        "ai gateway",
+        "language models",
+        "api keys",
+        "usage tracking",
+        "cost monitoring",
+        "model routing",
+        "authentication",
+        "openai",
+        "anthropic",
+        "gemini",
+        "provider management",
+        "dashboard",
+        "safeguards",
+        "content generation",
+        "ai-assisted applications",
+        "development velocity",
+        "operational overhead"
+      ]
+    },
+    "title": "AI Application Development with Unified Gateway Management",
+    "description": "Netlify addresses the growing complexity developers face when building AI-powered applications that leverage multiple language models and providers. Rather than managing separate API keys, tracking usage across different platforms, and handling authentication for OpenAI, Anthropic, Gemini, and others, Netlify's AI Gateway provides a single integration point that routes requests to 30+ models. This unified approach includes built-in usage tracking, cost monitoring, and safeguards, allowing developers to experiment with different AI providers, switch models dynamically, and monitor aggregate spending in one dashboard. For teams building everything from content generation tools to AI-assisted applications, this consolidation reduces operational overhead and accelerates development velocity."
+  },
+  {
+    "image": {
+      "large": "https://reflection.ai/apple-touch-icon.png",
+      "small": "https://reflection.ai/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai apps",
+        "reflection ai",
+        "infrastructure barriers",
+        "individual developers",
+        "creative experiments",
+        "state-of-the-art models",
+        "hobby projects",
+        "enterprise price",
+        "personal projects",
+        "ai enthusiasts",
+        "frontier ai",
+        "creative applications",
+        "side projects",
+        "democratization",
+        "intelligence tools"
+      ]
+    },
+    "title": "Build AI Apps Your Way",
+    "description": "Reflection AI enables individual creators, developers, and AI enthusiasts to harness frontier-level artificial intelligence for personal projects without the barriers typically associated with advanced AI technology. Whether building creative applications, experimenting with AI capabilities, developing side projects, or exploring new ideas, individuals can access powerful intelligence tools previously available only to well-funded organizations. This democratization empowers solo developers and hobbyists to innovate, learn, and create using state-of-the-art AI technology on their own terms."
+  },
+  {
+    "image": {
+      "large": "https://launchdarkly.com/icons/icon-512x512.png?v=17d478ce54f090941be262dd6d0a2a68",
+      "small": "https://launchdarkly.com/icons/icon-512x512.png?v=17d478ce54f090941be262dd6d0a2a68"
+    },
+    "rules": {
+      "keywords": [
+        "ai configuration",
+        "feature management",
+        "launchdarkly",
+        "ai models",
+        "prompts",
+        "agents",
+        "production rollout",
+        "observability",
+        "code redeployments",
+        "progressive rollout",
+        "model swapping",
+        "agent behavior",
+        "dynamic tuning",
+        "user feedback",
+        "performance issues",
+        "ai application",
+        "experimentation",
+        "ai features"
+      ]
+    },
+    "title": "Managing AI Features and Configuration at Scale",
+    "description": "LaunchDarkly extends its feature management capabilities to address the unique challenges of AI application development through dedicated AI configuration tools. As organizations increasingly embed AI models, prompts, and agents into their applications, they face the challenge of iterating on AI behavior without constant code redeployments. LaunchDarkly's AI configuration features enable teams to manage prompts, swap models, and adjust agent behaviors dynamically in production, applying the same progressive rollout and observability principles that work for traditional features. This capability is particularly valuable as AI components often require more frequent tuning and experimentation than traditional code, and the ability to quickly adjust AI behavior in response to user feedback or performance issues becomes critical for maintaining quality AI experiences."
+  },
+  {
+    "image": {
+      "large": "https://wac-cdn.atlassian.com/dam/jcr:f92b1a2a-10cd-4f82-bb2a-aa00400f4288/bitbucket-cloud-features-opengraph.png",
+      "small": "https://wac-cdn.atlassian.com/dam/jcr:f92b1a2a-10cd-4f82-bb2a-aa00400f4288/bitbucket-cloud-features-opengraph.png"
+    },
+    "rules": {
+      "keywords": [
+        "context switching",
+        "ai development",
+        "code completion",
+        "rovo dev",
+        "jira work items",
+        "confluence documentation",
+        "codebase",
+        "code reviews",
+        "ci cd",
+        "atlassian intelligence",
+        "software development",
+        "context aware",
+        "development workflows",
+        "task automation",
+        "team patterns"
+      ]
+    },
+    "title": "Stop Context Switching",
+    "description": "Bitbucket addresses the growing demand for AI-enhanced development workflows by offering context-aware AI that goes beyond simple code generation. Through Rovo Dev and Atlassian Intelligence, teams gain AI capabilities that understand their entire codebase, Jira work items, Confluence documentation, and team patterns to accelerate code reviews, automate busywork, triage CI/CD pipelines, and help new developers contribute on day one. This comprehensive AI approach reduces friction throughout the software development lifecycle rather than focusing solely on code completion."
+  },
+  {
+    "image": {
+      "large": "https://www.coveo.com/-/media/library/images/pages/homepage/og_homepage-up.png?sc_lang=en",
+      "small": "https://www.coveo.com/-/media/library/images/pages/homepage/og_homepage-up.png?sc_lang=en"
+    },
+    "rules": {
+      "keywords": [
+        "self-service",
+        "ai service",
+        "cost reduction",
+        "customer support",
+        "enterprise scale",
+        "customer satisfaction",
+        "generative ai",
+        "self-service success",
+        "case submissions",
+        "support overhead",
+        "sap",
+        "resolution times",
+        "support teams",
+        "trusted answers",
+        "agent intervention",
+        "csat",
+        "customer bases",
+        "complex support",
+        "coveo"
+      ]
+    },
+    "title": "83.5% Self-Service Success",
+    "description": "Coveo's AI Service solution addresses the escalating costs of customer support at enterprise scale while maintaining or improving customer satisfaction. Organizations struggle with high case volumes, long resolution times, and the expense of staffing large support teams. Coveo implements generative AI-powered self-service that understands customer questions and delivers trusted, accurate answers instantly, reducing the need for agent intervention. SAP's implementation achieved an 83.5% self-service success rate and a 31% reduction in case submissions, demonstrating that customers can resolve issues independently. This dual benefit of cost reduction and improved CSAT makes Coveo particularly valuable for enterprises with large customer bases and complex support needs."
+  },
+  {
+    "image": {
+      "large": "https://www.blazemeter.com/sites/default/themes/custom/assets/favicons/apple-touch-icon.png",
+      "small": "https://www.blazemeter.com/sites/default/themes/custom/assets/favicons/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "confidence",
+        "automated testing",
+        "testing workflows",
+        "manual intervention",
+        "test coverage",
+        "performance testing",
+        "functional testing",
+        "api testing",
+        "ai-powered",
+        "test data",
+        "defect reduction",
+        "quality engineering",
+        "scalability",
+        "reliability",
+        "qa leadership",
+        "deckers brands",
+        "blaze meter",
+        "automated pipelines"
+      ]
+    },
+    "title": "Achieving Confidence in Fully Automated Testing Workflows",
+    "description": "BlazeMeter enables organizations to achieve the ultimate goal of fully automated testing workflows with zero manual intervention. The critical challenge isn't just automating tests—it's building sufficient confidence in those automated tests to remove human oversight entirely. Deckers Brands exemplifies this achievement, with their QA leadership explicitly stating they have '100% automated' testing backed by the confidence BlazeMeter provides. This confidence stems from comprehensive test coverage combining performance, functional, and API testing with AI-powered test data generation that maximizes accuracy and reduces defects. For organizations seeking to scale quality engineering without proportionally scaling headcount, BlazeMeter provides the reliability foundation necessary to trust fully automated testing pipelines."
+  },
+  {
+    "image": {
+      "large": "https://refact.ai/images/cover.png",
+      "small": "https://refact.ai/images/cover.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai agent",
+        "vibe coding",
+        "real code",
+        "mvp",
+        "django backend",
+        "mysql integration",
+        "gui",
+        "github deploy",
+        "autonomous ai",
+        "natural language",
+        "prototype",
+        "software development",
+        "business apps",
+        "iot cloud",
+        "app building"
+      ]
+    },
+    "title": "AI Agent. Real Code. Your MVP.",
+    "description": "Refact.ai empowers non-technical founders, entrepreneurs, and business owners to transform ideas into working software without traditional development resources. The platform's autonomous AI agent handles end-to-end implementation based on natural language descriptions, enabling users to build prototypes, MVPs, and functional applications through conversational 'vibe coding.' Real user stories demonstrate complete IoT cloud apps, GUI implementations, and business applications built in hours or days instead of weeks or months, saving thousands in development costs while maintaining full creative control over the product vision."
+  },
+  {
+    "image": {
+      "large": "https://www.mintlify.com/_next/static/media/og.28576e75.png",
+      "small": "https://www.mintlify.com/_next/static/media/og.28576e75.png"
+    },
+    "rules": {
+      "keywords": [
+        "ship faster",
+        "documentation quality",
+        "ai agents",
+        "knowledge base",
+        "technical debt",
+        "user frustration",
+        "context-aware agents",
+        "maintain documentation",
+        "product evolution",
+        "software development",
+        "accuracy high",
+        "rapid iteration",
+        "draft docs",
+        "edit docs",
+        "current docs",
+        "fast-moving teams"
+      ]
+    },
+    "title": "Ship Faster, Doc Smarter",
+    "description": "Mintlify tackles one of the most persistent challenges in software development: keeping documentation accurate and current as products evolve. Traditional documentation becomes outdated quickly, creating technical debt and user frustration. Mintlify's AI-native approach uses context-aware agents to automatically draft, edit, and maintain documentation, allowing teams to move faster while maintaining consistency. This solution is particularly valuable for fast-moving teams where documentation traditionally lags behind product development."
+  },
+  {
+    "image": {
+      "large": "https://giselles.ai/favicon.ico?favicon.f714bfc6.ico",
+      "small": "https://giselles.ai/favicon.ico?favicon.f714bfc6.ico"
+    },
+    "rules": {
+      "keywords": [
+        "ai automation",
+        "visual builder",
+        "no-code",
+        "ai agents",
+        "deployment",
+        "engineering priorities",
+        "automation requests",
+        "existing tools",
+        "development overhead",
+        "product teams",
+        "non-technical team",
+        "visual interfaces",
+        "code",
+        "engineering prompts",
+        "rapid experimentation",
+        "workflow automation",
+        "product managers",
+        "business stakeholders",
+        "ai adoption",
+        "developer availability"
+      ]
+    },
+    "title": "Stop Waiting on Developers",
+    "description": "Giselle democratizes AI automation by enabling non-technical team members to design and deploy functional AI agents through visual interfaces without writing code or engineering prompts. For product teams without dedicated engineering resources or those wanting to iterate quickly without depending on developer availability, this no-code approach removes traditional barriers to AI adoption. Users connect agents to their tools and workflows with zero development overhead, enabling rapid experimentation and deployment of automation solutions by product managers, designers, and business stakeholders."
+  },
+  {
+    "image": {
+      "large": "https://giselles.ai/favicon.ico?favicon.f714bfc6.ico",
+      "small": "https://giselles.ai/favicon.ico?favicon.f714bfc6.ico"
+    },
+    "rules": {
+      "keywords": [
+        "documentation",
+        "readme",
+        "release notes",
+        "spec",
+        "code changes",
+        "product documentation",
+        "knowledge base",
+        "github activity",
+        "database content",
+        "prds",
+        "specifications",
+        "sync",
+        "automation",
+        "stakeholder trust",
+        "development tools"
+      ]
+    },
+    "title": "Docs Out of Sync Again?",
+    "description": "Giselle solves the persistent challenge of outdated and time-consuming product documentation by automatically generating PRDs, specifications, and keeping knowledge bases synchronized with code changes. For product teams moving quickly, manual documentation often becomes a bottleneck or falls out of sync with actual implementation. The platform transforms GitHub activity and database content into structured product artifacts that plug directly into development tools, ensuring documentation evolves alongside the product without manual intervention."
+  },
+  {
+    "image": {
+      "large": "https://framerusercontent.com/images/y0eUBEzKyPVl0wIUuwoyQOksMWE.png",
+      "small": "https://framerusercontent.com/images/y0eUBEzKyPVl0wIUuwoyQOksMWE.png"
+    },
+    "rules": {
+      "keywords": [
+        "ai visibility",
+        "brand monitoring",
+        "chatgpt",
+        "perplexity",
+        "google ai overviews",
+        "continuous tracking",
+        "competitor analysis",
+        "reputation scores",
+        "content recommendations",
+        "seo",
+        "ai discovery",
+        "conversational answers",
+        "brand positioning",
+        "marketing",
+        "large language models",
+        "purchase decisions"
+      ]
+    },
+    "title": "AI Visibility Command Center",
+    "description": "Yolando addresses the existential crisis facing marketers as AI fundamentally reshapes how customers discover brands. Traditional SEO strategies have become obsolete as large language models like ChatGPT, Perplexity, and Google's AI Overviews now serve as the primary discovery mechanism through conversational answers rather than ranked links. Yolando provides marketers with visibility into how AI platforms understand and represent their brand, offering actionable recommendations to improve positioning and ensure their brand appears in AI-generated responses when potential customers are making purchasing decisions."
+  },
+  {
+    "image": {
+      "large": "https://zencoder.ai/hubfs/zencoder-meta-image.png",
+      "small": "https://zencoder.ai/hubfs/zencoder-meta-image.png"
+    },
+    "rules": {
+      "keywords": [
+        "multi-agent refactoring",
+        "ai agents",
+        "code refactoring",
+        "complex transformations",
+        "migrations",
+        "architectural changes",
+        "framework upgrades",
+        "codebases",
+        "dependencies",
+        "consistency",
+        "tests",
+        "developer intent",
+        "breaking changes",
+        "technical debt",
+        "modernization",
+        "manual refactoring"
+      ]
+    },
+    "title": "Multi-Agent Refactoring",
+    "description": "Zencoder addresses the time-consuming challenge of code refactoring and complex transformations by providing AI agents that understand developer intent and execute changes rapidly across large codebases. What typically requires hours of manual work—navigating dependencies, ensuring consistency, and avoiding breaking changes—can be completed in minutes. This capability is particularly valuable for developers facing technical debt, architectural changes, or modernization efforts where manual refactoring is error-prone and time-intensive."
+  },
+  {
+    "image": {
+      "large": "https://static.gamma.app/favicons/apple-touch-icon.png",
+      "small": "https://static.gamma.app/favicons/apple-touch-icon.png"
+    },
+    "rules": {
+      "keywords": [
+        "design skills",
+        "layout",
+        "formatting",
+        "ai slides",
+        "professional slides",
+        "presentations",
+        "design bottleneck",
+        "gamma",
+        "powerpoint",
+        "google slides",
+        "educators",
+        "consultants",
+        "professionals",
+        "brand consistency",
+        "smart layouts",
+        "slide generation",
+        "time saving"
+      ]
+    },
+    "title": "Design Skills? Not Needed.",
+    "description": "Gamma addresses the universal frustration of creating visually appealing presentations when you're not a designer. Traditional tools like PowerPoint and Google Slides require significant time investment in layout, formatting, and design consistency. For educators, consultants, and professionals who need to communicate ideas quickly and effectively, Gamma's AI-powered approach eliminates the design bottleneck by generating professional-quality slides from outlines or ideas, complete with smart layouts and brand consistency, in a fraction of the time."
+  },
+  {
+    "image": {
+      "large": "https://redis.io/apple-icon.png?b1dad6ebc6bf461a",
+      "small": "https://redis.io/apple-icon.png?b1dad6ebc6bf461a"
+    },
+    "rules": {
+      "keywords": [
+        "redis",
+        "ai agents",
+        "langchain",
+        "llamaindex",
+        "langgraph",
+        "openai",
+        "amazon bedrock",
+        "nvidia",
+        "vector database",
+        "integration complexity",
+        "high performance",
+        "developer tools",
+        "agent development",
+        "compatibility workarounds",
+        "ecosystem approach"
+      ]
+    },
+    "title": "Ship AI Agents Faster",
+    "description": "Redis recognizes that developers building AI agents need seamless integration with the frameworks and tools they already use. By partnering with leading agentic frameworks like LangGraph, LangChain, and LlamaIndex, along with major AI platforms including OpenAI, Amazon Bedrock, Mem0, and NVIDIA, Redis enables developers to accelerate their AI agent development without wrestling with integration complexity. This ecosystem approach allows developers to leverage familiar tools while benefiting from Redis's high-performance vector database capabilities."
+  }
+]
 }

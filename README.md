@@ -24,7 +24,6 @@ Available in **TypeScript** (`sdk-ts/`) and **Python** (`sdk-py/`) — pick the 
 | **find_tools_local** | Process the user's prompt; match against `rules[]` in `tools.json`. |
 | **find_tools_remote** | `POST https://go.kone.vc/search/git/<github_repo_id>` — body `{ "prompt": "<user's prompt>" }`, response `{ "tools": [ { "title", "description", "url", "image" } ] }`. |
 | **test_*** | CLI: pass a prompt; prints selected matches (JSON) to stdout. |
-| **Pull request (webhook)** | Listener receives `{ "repo": "<github repo name>", "data": { "tools": [...] } }` and opens a PR updating `tools.json` in that repo. |
 
 ---
 

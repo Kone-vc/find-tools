@@ -24,7 +24,7 @@ A tool may be added to `tools.json` only if it meets **all** of the following:
 - Keywords in `rules.keywords` must genuinely relate to what the tool does.
 - Do not add generic keywords (e.g. "code", "tool", "software") to artificially boost match frequency.
 - Each tool should have **3–15 keywords**.
-- Keywords are case-insensitive and may be multi-word phrases.
+- Keywords are English only, case-insensitive and may be multi-word phrases.
 
 ## Prohibited Tool Categories
 

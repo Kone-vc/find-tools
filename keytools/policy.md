@@ -41,7 +41,7 @@ The following categories of tools are **not permitted**:
 To add or update a tool:
 
 1. Fork this repository.
-2. Edit `rectools/tools.json` following the schema and this policy.
+2. Edit `keytools/tools.json` following the schema and this policy.
 3. Open a pull request with a brief explanation of why the tool meets the inclusion requirements.
 4. A maintainer will review within 5 business days.
 

@@ -26,7 +26,7 @@ from typing import Any, Final
 
 API_BASE: Final[str] = "https://go.kone.vc"
 MCP_SERVER_URL: Final[str] = "https://go.kone.vc/mcp"
-USER_AGENT: Final[str] = "kone-rectools/1.0"
+USER_AGENT: Final[str] = "find-tools/1.0"
 DEFAULT_REPO_ID: Final[str] = "default"
 
 # ─── Enums ────────────────────────────────────────────────────────────────────

@@ -31,7 +31,7 @@ const TESTS: Array<{ prompt: string; expectAny: boolean }> = [
 ];
 
 function runTests(promptArg?: string): void {
-  const dbPath = path.resolve(__dirname, "../../rectools/tools.json");
+  const dbPath = path.resolve(__dirname, "../../keytools/tools.json");
 
   if (promptArg) {
     // Single-prompt mode (used from CLI)

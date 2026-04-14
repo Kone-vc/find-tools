@@ -53,7 +53,7 @@ function postJSON(url: string, body: unknown): Promise<unknown> {
       headers: {
         "Content-Type": "application/json",
         "Content-Length": Buffer.byteLength(payload),
-        "User-Agent": "kone-rectools/1.0",
+        "User-Agent": "find-tools/1.0",
       },
     };
 

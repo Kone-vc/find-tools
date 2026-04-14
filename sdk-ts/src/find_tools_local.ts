@@ -57,7 +57,7 @@ export function findToolsLocal(
   dbPath?: string
 ): MatchedTool[] {
   const resolvedPath =
-    dbPath ?? path.resolve(__dirname, "../../rectools/tools.json");
+    dbPath ?? path.resolve(__dirname, "../../keytools/tools.json");
   const raw = fs.readFileSync(resolvedPath, "utf-8");
   const db: ToolsDatabase = JSON.parse(raw);
 

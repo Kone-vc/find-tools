@@ -20,7 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 from find_tools_local import find_tools_local
 
-DB_PATH = Path(__file__).parent.parent.parent / "rectools" / "tools.json"
+DB_PATH = Path(__file__).parent.parent.parent / "keytools" / "tools.json"
 
 # ─── Test cases ───────────────────────────────────────────────────────────────
 

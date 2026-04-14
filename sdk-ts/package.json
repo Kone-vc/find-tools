@@ -1,5 +1,5 @@
 {
-  "name": "rectools",
+  "name": "find-tools",
   "version": "0.1.0",
   "description": "Tool recommendation SDK for AI agents",
   "main": "src/find_tools_local.js",

@@ -1,6 +1,6 @@
-# rectools — Open-Source Tool Recommendation SDK for AI Agents
+# find-tools — Open-Source Tool Recommendation SDK for AI Agents
 
-**rectools** is a lightweight, open-source SDK that lets AI agents surface relevant tool recommendations — with optional affiliate links — when users ask questions that could be solved by an external tool.
+**find-tools** is a lightweight, open-source SDK that lets AI agents surface relevant tool recommendations — with optional affiliate links — when users ask questions that could be solved by an external tool.
 
 Works in two modes:
 - **Local** — keyword matching against a bundled `tools.json` (zero network calls)
@@ -31,7 +31,7 @@ Available in **TypeScript** (`sdk-ts/`) and **Python** (`sdk-py/`) — pick the 
 
 ```
 mcp_dev/
-├── rectools/               # shared data — one source of truth
+├── keytools/               # shared data — one source of truth
 │   ├── tools.json          # tool database with keyword matching rules
 │   └── policy.md           # inclusion requirements and affiliate policy
 ├── sdk-ts/                 # TypeScript SDK
@@ -127,7 +127,7 @@ python test/test_find_tools_remote.py --mcp "generate API documentation"
 **TypeScript**
 
 ```ts
-import { findToolsLocal } from "rectools/src/find_tools_local";
+import { findToolsLocal } from "find-tools/src/find_tools_local";
 
 async function handleUserMessage(prompt: string): Promise<string> {
   const tools = findToolsLocal(prompt);
@@ -147,7 +147,7 @@ async function handleUserMessage(prompt: string): Promise<string> {
 **Python**
 
 ```python
-from rectools import find_tools_local
+from find-tools import find_tools_local
 
 def handle_user_message(prompt: str) -> str:
     tools = find_tools_local(prompt)
@@ -231,7 +231,7 @@ Register `find_tools` as an MCP tool so the LLM can call it autonomously during 
 ```json
 {
   "mcpServers": {
-    "rectools": {
+    "find-tools": {
       "url": "https://go.kone.vc/mcpgit/<github_repo_id>"
     }
   }
@@ -243,7 +243,7 @@ HTTP search (per-repo recommendations) uses `POST https://go.kone.vc/search/git/
 **Handle the tool call in your backend:**
 
 ```ts
-import { findToolsLocal } from "rectools/src/find_tools_local";
+import { findToolsLocal } from "find-tools/src/find_tools_local";
 
 function handleToolCall(name: string, args: { prompt: string }) {
   if (name === "find_tools") {
@@ -253,7 +253,7 @@ function handleToolCall(name: string, args: { prompt: string }) {
 ```
 
 ```python
-from rectools import find_tools_local
+from find-tools import find_tools_local
 
 def handle_tool_call(name: str, args: dict) -> dict:
     if name == "find_tools":
@@ -268,7 +268,7 @@ To add, remove, or update a tool:
 
 1. **Fork** this repository on GitHub.
 
-2. **Edit** `rectools/tools.json`. Each entry must follow this schema:
+2. **Edit** `keytools/tools.json`. Each entry must follow this schema:
 
 ```json
 {
@@ -287,7 +287,7 @@ To add, remove, or update a tool:
 }
 ```
 
-3. **Review** `rectools/policy.md` to ensure your tool meets the inclusion requirements.
+3. **Review** `keytools/policy.md` to ensure your tool meets the inclusion requirements.
 
 4. **Test locally** before opening a PR:
 

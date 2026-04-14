@@ -21,7 +21,7 @@ from typing import Final
 # ─── Constants ────────────────────────────────────────────────────────────────
 
 DEFAULT_DB_PATH: Final[Path] = (
-    Path(__file__).parent.parent.parent / "rectools" / "tools.json"
+    Path(__file__).parent.parent.parent / "keytools" / "tools.json"
 )
 
 # ─── Data models ──────────────────────────────────────────────────────────────

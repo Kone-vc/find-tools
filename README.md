@@ -181,6 +181,47 @@ Register `find_tools` as an MCP tool so the LLM can call it autonomously during 
       }
     },
     "required": ["prompt"]
+  },
+  "outputSchema": {
+    "type": "object",
+    "required": [
+      "tools"
+    ],
+    "properties": {
+      "tools": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "url",
+            "title",
+            "description",
+            "image"
+          ],
+          "properties": {
+            "url": {
+              "type": "string",
+              "description": "URL to the selected tool."
+            },
+            "title": {
+              "type": "string",
+              "description": "The tool title."
+            },
+            "description": {
+              "type": "string",
+              "description": "The tool description."
+            },
+            "image": {
+              "type": "string",
+              "description": "The tool image. Set to empty string if no image is found."
+            }
+          },
+          "additionalProperties": false
+        },
+        "description": "Array of relevant tools found by the user’s/agent’s prompt."
+      }
+    },
+    "additionalProperties": false
   }
 }
 ```
@@ -191,7 +232,7 @@ Register `find_tools` as an MCP tool so the LLM can call it autonomously during 
 {
   "mcpServers": {
     "rectools": {
-      "url": "https://go.kone.vc/mcp"
+      "url": "https://go.kone.vc/mcpgit/<github_repo_id>"
     }
   }
 }

@@ -86,6 +86,19 @@ def _build_phrases(prompt: str) -> frozenset[str]:
     return frozenset(phrases)
 
 
+def _prompt_contains_keyword_words(text: str, keyword: str) -> bool:
+    """True if *keyword* appears as whole word(s), not inside another word (e.g. api vs capital)."""
+    parts = keyword.strip().split()
+    if not parts:
+        return False
+    body = r"\s+".join(re.escape(p) for p in parts)
+    return re.search(
+        rf"(?:^|[^a-z0-9]){body}(?:[^a-z0-9]|$)",
+        text,
+        re.IGNORECASE,
+    ) is not None
+
+
 # ─── Database loader ──────────────────────────────────────────────────────────
 
 def _load_tools(db_path: Path) -> list[Tool]:
@@ -98,7 +111,7 @@ def _load_tools(db_path: Path) -> list[Tool]:
 
 def _tool_matches(tool: Tool, phrases: frozenset[str], prompt_lower: str) -> bool:
     return any(
-        kw in phrases or kw in prompt_lower
+        kw in phrases or _prompt_contains_keyword_words(prompt_lower, kw)
         for kw in tool.keywords
     )
 

@@ -47,9 +47,21 @@ function buildPromptPhrases(prompt: string): string[] {
   for (let i = 0; i < tokens.length - 2; i++) {
     phrases.push(`${tokens[i]} ${tokens[i + 1]} ${tokens[i + 2]}`);
   }
-  // Also include the full lowercased prompt for substring matching
+  // Also include the full lowercased prompt for whole-word substring matching
   phrases.push(lower);
   return phrases;
+}
+
+/** True if keyword appears in text as whole word(s), not inside another word (e.g. "api" vs "capital"). */
+function promptContainsKeywordWords(text: string, keyword: string): boolean {
+  const parts = keyword.trim().split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return false;
+  const escaped = parts.map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const re = new RegExp(
+    `(?:^|[^a-z0-9])${escaped.join("\\s+")}(?:[^a-z0-9]|$)`,
+    "i"
+  );
+  return re.test(text);
 }
 
 export function findToolsLocal(
@@ -68,8 +80,8 @@ export function findToolsLocal(
   for (const tool of db.tools) {
     const keywords = tool.rules.keywords.map((k) => k.toLowerCase());
     const isMatch = keywords.some((keyword) => {
-      // Check if any phrase equals the keyword, or if the full prompt contains it
-      return phrases.includes(keyword) || phrases[phrases.length - 1].includes(keyword);
+      const full = phrases[phrases.length - 1];
+      return phrases.includes(keyword) || promptContainsKeywordWords(full, keyword);
     });
 
     if (isMatch) {

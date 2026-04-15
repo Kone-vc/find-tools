@@ -6,9 +6,9 @@ Finds tool recommendations via the remote kone.vc API.
 
 Two methods are supported:
   --http   POST https://go.kone.vc/search/git/<github_repo_id>   (default)
-  --mcp    JSON-RPC 2.0 call to https://go.kone.vc/mcp
+  --mcp    JSON-RPC 2.0 call to https://go.kone.vc/mcpgit
 
-Requires Python 3.10+
+Requires Python 3.11 or higher
 """
 
 from __future__ import annotations
@@ -128,7 +128,9 @@ def find_tools_remote_http(
 
 # ─── Method 2: MCP Tool Call ─────────────────────────────────────────────────
 
-def find_tools_remote_mcp(prompt: str) -> list[MatchedTool]:
+def find_tools_remote_mcp(
+    prompt: str,
+    repo_id: str = DEFAULT_REPO_ID) -> list[MatchedTool]:
     mcp_request = {
         "jsonrpc": "2.0",
         "id": 1,
@@ -139,7 +141,6 @@ def find_tools_remote_mcp(prompt: str) -> list[MatchedTool]:
         },
     }
 
-    repo_id: str = DEFAULT_REPO_ID
     mcp_url = f"{MCP_SERVER_URL}/{urllib.parse.quote(repo_id, safe='')}"
     response = _post_json(mcp_url, mcp_request)
 
@@ -172,7 +173,7 @@ def find_tools_remote(
         case RemoteMethod.HTTP:
             return find_tools_remote_http(prompt, repo_id)
         case RemoteMethod.MCP:
-            return find_tools_remote_mcp(prompt)
+            return find_tools_remote_mcp(prompt, repo_id)
 
 
 # ─── CLI arg parsing ──────────────────────────────────────────────────────────

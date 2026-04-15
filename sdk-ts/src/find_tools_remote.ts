@@ -3,8 +3,8 @@ import * as http from "http";
 import { URL } from "url";
 
 interface ToolImage {
-  small: string;
-  large: string;
+  small: string | null;
+  large: string | null;
 }
 
 interface MatchedTool {
@@ -23,13 +23,18 @@ const MCP_SERVER_URL = "https://go.kone.vc/mcpgit";
 
 function normalizeTool(raw: Record<string, unknown>): MatchedTool {
   const imageRaw = raw.image;
-  const image: ToolImage =
-    typeof imageRaw === "string"
-      ? { small: imageRaw, large: imageRaw }
-      : {
-          small: (imageRaw as ToolImage).small,
-          large: (imageRaw as ToolImage).large,
-        };
+  let image: ToolImage;
+  if (typeof imageRaw === "string") {
+    image = { small: imageRaw, large: imageRaw };
+  } else if (imageRaw && typeof imageRaw === "object") {
+    const im = imageRaw as Record<string, unknown>;
+    image = {
+      small: im.small == null ? null : String(im.small),
+      large: im.large == null ? null : String(im.large),
+    };
+  } else {
+    image = { small: null, large: null };
+  }
   return {
     title: String(raw.title),
     description: String(raw.description),
@@ -177,7 +182,7 @@ if (require.main === module) {
 
   if (!prompt) {
     console.error(
-      "Usage: ts-node find_tools_remote.ts [--http|--mcp] [--repo=<id>] <prompt>"
+      "Usage: npx ts-node src/find_tools_remote.ts [--http|--mcp] [--repo=<id>] <prompt>"
     );
     process.exit(1);
   }

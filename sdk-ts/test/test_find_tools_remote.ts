@@ -3,8 +3,8 @@
  *
  * CLI test for find_tools_remote.
  * Usage:
- *   ts-node test_find_tools_remote.ts --http [--repo=<id>] "<prompt>"
- *   ts-node test_find_tools_remote.ts --mcp "<prompt>"
+ *   cd sdk-ts && npx ts-node test/test_find_tools_remote.ts --http [--repo=<id>] "<prompt>"
+ *   cd sdk-ts && npx ts-node test/test_find_tools_remote.ts --mcp "<prompt>"
  *
  * Exit code 0 = tools found, exit code 2 = no tools found, exit code 1 = error.
  */
@@ -18,7 +18,7 @@ interface MatchedTool {
   title: string;
   description: string;
   url: string;
-  image: { small: string; large: string };
+  image: { small: string | null; large: string | null };
 }
 
 async function runRemoteTest(

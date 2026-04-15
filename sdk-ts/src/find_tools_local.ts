@@ -2,8 +2,8 @@ import * as fs from "fs";
 import * as path from "path";
 
 interface ToolImage {
-  small: string;
-  large: string;
+  small: string | null;
+  large: string | null;
 }
 
 interface Tool {
@@ -64,6 +64,19 @@ function promptContainsKeywordWords(text: string, keyword: string): boolean {
   return re.test(text);
 }
 
+/** Same matching rules as {@link findToolsLocal}; useful for tests and batch checks. */
+export function matchPromptAgainstKeywords(
+  prompt: string,
+  keywords: string[]
+): boolean {
+  const phrases = buildPromptPhrases(prompt);
+  const full = phrases[phrases.length - 1];
+  return keywords.some((kw) => {
+    const keyword = kw.toLowerCase();
+    return phrases.includes(keyword) || promptContainsKeywordWords(full, keyword);
+  });
+}
+
 export function findToolsLocal(
   prompt: string,
   dbPath?: string
@@ -73,18 +86,10 @@ export function findToolsLocal(
   const raw = fs.readFileSync(resolvedPath, "utf-8");
   const db: ToolsDatabase = JSON.parse(raw);
 
-  const phrases = buildPromptPhrases(prompt);
-
   const matched: MatchedTool[] = [];
 
   for (const tool of db.tools) {
-    const keywords = tool.rules.keywords.map((k) => k.toLowerCase());
-    const isMatch = keywords.some((keyword) => {
-      const full = phrases[phrases.length - 1];
-      return phrases.includes(keyword) || promptContainsKeywordWords(full, keyword);
-    });
-
-    if (isMatch) {
+    if (matchPromptAgainstKeywords(prompt, tool.rules.keywords)) {
       matched.push({
         title: tool.title,
         description: tool.description,
@@ -101,7 +106,7 @@ export function findToolsLocal(
 if (require.main === module) {
   const prompt = process.argv.slice(2).join(" ");
   if (!prompt) {
-    console.error("Usage: ts-node find_tools_local.ts <prompt>");
+    console.error("Usage: npx ts-node src/find_tools_local.ts <prompt>");
     process.exit(1);
   }
 

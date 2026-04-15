@@ -40,10 +40,10 @@ class RemoteMethod(StrEnum):
 
 @dataclass(frozen=True, slots=True)
 class ToolImage:
-    small: str
-    large: str
+    small: str | None
+    large: str | None
 
-    def to_dict(self) -> dict[str, str]:
+    def to_dict(self) -> dict[str, str | None]:
         return {"small": self.small, "large": self.large}
 
 
@@ -60,7 +60,11 @@ class MatchedTool:
         if isinstance(img, str):
             image = ToolImage(small=img, large=img)
         else:
-            image = ToolImage(small=img["small"], large=img["large"])
+            s, l_ = img.get("small"), img.get("large")
+            image = ToolImage(
+                small=None if s is None else str(s),
+                large=None if l_ is None else str(l_),
+            )
         return cls(
             title=data["title"],
             description=data["description"],

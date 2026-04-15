@@ -92,8 +92,8 @@ cd sdk-ts
 # Local — run full test suite
 npm run test:local
 
-# Local — single prompt
-ts-node test/test_find_tools_local.ts "How do I lint my TypeScript code?"
+# Local — single prompt (npx uses the devDependency from this folder)
+npx ts-node test/test_find_tools_local.ts "How do I lint my TypeScript code?"
 
 # Remote — HTTP API
 npm run test:remote:http -- --repo=default "refactor my pull request"

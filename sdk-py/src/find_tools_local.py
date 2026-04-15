@@ -16,7 +16,7 @@ import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Final
+from typing import Any, Final
 
 # ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -28,14 +28,21 @@ DEFAULT_DB_PATH: Final[Path] = (
 
 @dataclass(frozen=True, slots=True)
 class ToolImage:
-    small: str
-    large: str
+    small: str | None
+    large: str | None
 
     @classmethod
-    def from_dict(cls, data: dict) -> ToolImage:
-        return cls(small=data["small"], large=data["large"])
+    def from_dict(cls, data: dict[str, Any]) -> ToolImage:
+        def opt(v: object) -> str | None:
+            if v is None:
+                return None
+            if isinstance(v, str):
+                return v
+            return str(v)
 
-    def to_dict(self) -> dict[str, str]:
+        return cls(small=opt(data.get("small")), large=opt(data.get("large")))
+
+    def to_dict(self) -> dict[str, str | None]:
         return {"small": self.small, "large": self.large}
 
 
@@ -99,6 +106,23 @@ def _prompt_contains_keyword_words(text: str, keyword: str) -> bool:
     ) is not None
 
 
+def _match_keywords(
+    phrases: frozenset[str], prompt_lower: str, lowered: tuple[str, ...]
+) -> bool:
+    return any(
+        kw in phrases or _prompt_contains_keyword_words(prompt_lower, kw)
+        for kw in lowered
+    )
+
+
+def match_prompt_against_keywords(prompt: str, keywords: list[str] | tuple[str, ...]) -> bool:
+    """Same rules as :func:`find_tools_local`; useful for tests and batch checks."""
+    phrases = _build_phrases(prompt)
+    prompt_lower = prompt.lower()
+    lowered = tuple(kw.lower() for kw in keywords)
+    return _match_keywords(phrases, prompt_lower, lowered)
+
+
 # ─── Database loader ──────────────────────────────────────────────────────────
 
 def _load_tools(db_path: Path) -> list[Tool]:
@@ -110,10 +134,7 @@ def _load_tools(db_path: Path) -> list[Tool]:
 # ─── Matching logic ───────────────────────────────────────────────────────────
 
 def _tool_matches(tool: Tool, phrases: frozenset[str], prompt_lower: str) -> bool:
-    return any(
-        kw in phrases or _prompt_contains_keyword_words(prompt_lower, kw)
-        for kw in tool.keywords
-    )
+    return _match_keywords(phrases, prompt_lower, tool.keywords)
 
 
 # ─── Public API ───────────────────────────────────────────────────────────────

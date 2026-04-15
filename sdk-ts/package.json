@@ -6,6 +6,8 @@
   "types": "src/find_tools_local.d.ts",
   "scripts": {
     "test:local": "ts-node test/test_find_tools_local.ts",
+    "test:tools": "ts-node test/test_tools_json.ts --quiet",
+    "lint:tools": "ts-node test/test_tools_json.ts",
     "test:remote:http": "ts-node test/test_find_tools_remote.ts --http",
     "test:remote:mcp": "ts-node test/test_find_tools_remote.ts --mcp"
   },

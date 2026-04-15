@@ -33,7 +33,7 @@ async function runRemoteTest(
   let results: MatchedTool[];
   try {
     if (method === "mcp") {
-      results = await findToolsRemoteMcp(prompt);
+      results = await findToolsRemoteMcp(prompt, repoId);
     } else {
       results = await findToolsRemoteHttp(prompt, repoId);
     }

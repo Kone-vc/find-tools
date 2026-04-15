@@ -130,7 +130,8 @@ def find_tools_remote_http(
 
 def find_tools_remote_mcp(
     prompt: str,
-    repo_id: str = DEFAULT_REPO_ID) -> list[MatchedTool]:
+    repo_id: str = DEFAULT_REPO_ID,
+) -> list[MatchedTool]:
     mcp_request = {
         "jsonrpc": "2.0",
         "id": 1,
@@ -222,7 +223,7 @@ def _main(argv: list[str]) -> int:
 
     match args.method:
         case RemoteMethod.MCP:
-            print("[method: MCP]", file=sys.stderr)
+            print(f"[method: MCP, repo: {args.repo_id}]", file=sys.stderr)
         case RemoteMethod.HTTP:
             print(f"[method: HTTP API, repo: {args.repo_id}]", file=sys.stderr)
 

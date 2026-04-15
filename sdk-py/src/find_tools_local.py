@@ -5,7 +5,7 @@ find_tools_local.py
 Finds relevant tool recommendations from the local tools.json database
 by matching keywords against a user prompt.
 
-Requires Python 3.10+
+Requires Python 3.11 or higher
 """
 
 from __future__ import annotations

@@ -122,7 +122,8 @@ interface McpResponse {
 }
 
 export async function findToolsRemoteMcp(
-  prompt: string
+  prompt: string,
+  repoId: string
 ): Promise<MatchedTool[]> {
   const mcpRequest: McpRequest = {
     jsonrpc: "2.0",
@@ -185,7 +186,7 @@ if (require.main === module) {
     let results: MatchedTool[];
     if (methodFlag === "--mcp") {
       console.error("[method: MCP]");
-      results = await findToolsRemoteMcp(prompt);
+      results = await findToolsRemoteMcp(prompt, repoId);
     } else {
       console.error(`[method: HTTP API, repo: ${repoId}]`);
       results = await findToolsRemoteHttp(prompt, repoId);

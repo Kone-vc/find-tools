@@ -25,7 +25,7 @@ from typing import Any, Final
 # ─── Constants ────────────────────────────────────────────────────────────────
 
 API_BASE: Final[str] = "https://go.kone.vc"
-MCP_SERVER_URL: Final[str] = "https://go.kone.vc/mcp"
+MCP_SERVER_URL: Final[str] = "https://go.kone.vc/mcpgit"
 USER_AGENT: Final[str] = "find-tools/1.0"
 DEFAULT_REPO_ID: Final[str] = "default"
 
@@ -139,7 +139,9 @@ def find_tools_remote_mcp(prompt: str) -> list[MatchedTool]:
         },
     }
 
-    response = _post_json(MCP_SERVER_URL, mcp_request)
+    repo_id: str = DEFAULT_REPO_ID
+    mcp_url = f"{MCP_SERVER_URL}/{urllib.parse.quote(repo_id, safe='')}"
+    response = _post_json(mcp_url, mcp_request)
 
     match response:
         case {"error": {"code": code, "message": message}}:

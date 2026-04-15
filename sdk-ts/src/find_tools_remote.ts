@@ -19,7 +19,7 @@ interface ApiResponse {
 }
 
 const API_BASE = "https://go.kone.vc";
-const MCP_SERVER_URL = "https://go.kone.vc/mcp";
+const MCP_SERVER_URL = "https://go.kone.vc/mcpgit";
 
 function normalizeTool(raw: Record<string, unknown>): MatchedTool {
   const imageRaw = raw.image;
@@ -134,7 +134,8 @@ export async function findToolsRemoteMcp(
     },
   };
 
-  const response = (await postJSON(MCP_SERVER_URL, mcpRequest)) as McpResponse;
+  const mcpurl = `${MCP_SERVER_URL}/${encodeURIComponent(repoId)}`;
+  const response = (await postJSON(mcpurl, mcpRequest)) as McpResponse;
 
   if (response.error) {
     throw new Error(

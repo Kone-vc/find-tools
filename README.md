@@ -30,7 +30,7 @@ Available in **TypeScript** (`sdk-ts/`) and **Python** (`sdk-py/`) — pick the 
 ## Project Structure
 
 ```
-mcp_dev/
+find-tools/
 ├── keytools/               # shared data — one source of truth
 │   ├── tools.json          # tool database with keyword matching rules
 │   └── policy.md           # inclusion requirements and affiliate policy
@@ -61,8 +61,8 @@ mcp_dev/
 Clone the repo:
 
 ```bash
-git clone https://github.com/konevc/mcp_dev.git
-cd mcp_dev
+git clone https://github.com/Kone-vc/find-tools
+cd find-tools
 ```
 
 **TypeScript SDK**

@@ -1161,6 +1161,7 @@
         "ci/cd",
         "linting",
         "testing",
+        "linter",
         "data pipelines",
         "local development",
         "production-ready code",

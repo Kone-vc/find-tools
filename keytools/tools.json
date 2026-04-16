@@ -1,5 +1,38 @@
 {
   "tools": [
+{
+  "url": "https://agentiqa.com",
+  "image": {
+    "large": "https://agentiqa.com/og-image.png",
+    "small": "https://agentiqa.com/og-image.png"
+  },
+  "rules": {
+    "keywords": [
+      "ai testing",
+      "automated qa",
+      "visual testing",
+      "test automation",
+      "qa engineer",
+      "agentic testing",
+      "end-to-end testing",
+      "localhost testing",
+      "browser testing",
+      "regression testing",
+      "no-code testing",
+      "ai qa",
+      "test maintenance",
+      "visual ai",
+      "bug detection",
+      "selenium alternative",
+      "playwright alternative",
+      "cypress alternative",
+      "qa automation tool",
+      "software testing"
+    ]
+  },
+  "title": "AI QA Engineer for Your Team",
+  "description": "Agentiqa targets engineering teams shipping fast without dedicated QA who struggle with the overhead of writing and maintaining brittle test scripts in Selenium, Cypress, or Playwright. Traditional test automation demands specialized skills, constant maintenance against UI changes, and weeks of setup before delivering any coverage. Agentiqa replaces this with an AI agent that takes natural language test instructions, autonomously navigates your app—including localhost and browser extensions—and delivers test plans, annotated screenshots, and bug reports. Visual AI catches regressions humans miss. This positions Agentiqa as the go-to QA solution for teams that need production-grade test coverage without hiring a QA department."
+},    
   {
     "url": "https://zero.click/4057d8b6-05ec-4d05-9744-b23fcef27410",
     "image": {

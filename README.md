@@ -10,6 +10,22 @@ Available in **TypeScript** (`sdk-ts/`) and **Python** (`sdk-py/`) — pick the 
 
 ---
 
+## About Kone
+
+Kone is an ad layer for AI tools. Our network includes 45k advertisers operating on CPA and CPC models.
+
+We are an intent-enablement platform. This means that when a user asks something, we analyze their intent and provide relevant links. If there is no purchase intent, no ads are shown.
+
+---
+
+## Pricing Model
+
+We operate on a revenue-sharing model. We share 70% of revenue with publishers (creators and developers).
+
+You can track your statistics here: **[https://acc.kone.vc/](https://acc.kone.vc/)**. Register, get your API key, and start earning with AI.
+
+---
+
 ## How It Works
 
 1. A user sends a prompt to your AI agent.
